@@ -1,0 +1,744 @@
+﻿ChAc;G/L Acct;B/S acct;G/L acct;Group Acct;Date;Created by;AT;AcGp;Samp. acct;Tr.Prt;DelFl;Crtn.block;Pstg block;Plan.block;Search Term;Func. Area;Short Text;G/L Acct Long Text;G/L long text;P&L LVL 1;P&L LVL 2;P&L LVL 3;P&L LVL 4;P&L LVL 5;P&L LVL 6;P&L LVL 7
+PCOP;101310;X;101310;;14.02.2007;CBL;;SAKO;;;;;;;;;Subscribed capital;Subscribed capital;SUBSCRIBED CAPITAL;;;;;;;
+PCOP;101320;X;101320;;14.02.2007;CBL;;SAKO;;;;;;;;;Subscribed and paid-;Subscribed and paid-up capital (amortized);SUBSCRIBED AND PAID-UP CA;;;;;;;
+PCOP;104100;X;104100;;06.04.2012;PDUP;;BIL.;;;;;;;;;Capital stock: subsc;Capital stock: subscribed value-dated(un;CAPITAL STOCK: SUBSCRIBED;;;;;;;
+PCOP;106110;X;106110;;14.02.2007;CBL;;SAKO;;;;;;;;;Legal reserve;Legal reserve;LEGAL RESERVE;;;;;;;
+PCOP;106880;X;106880;;14.02.2007;CBL;;SAKO;;;;;;;;;Various reserves;Various reserves;VARIOUS RESERVES;;;;;;;
+PCOP;110000;X;110000;;14.02.2007;CBL;;SAKO;;;;;;;;;Retained earnings (c;Retained earnings (credit balance);RETAINED EARNINGS (CREDIT;;;;;;;
+PCOP;119000;X;119000;;14.02.2007;CBL;;SAKO;;;;;;;;;Retained losses (deb;Retained losses (debit balance);RETAINED LOSSES (DEBIT BA;;;;;;;
+PCOP;120000;X;120000;;12.02.2007;CBL;;BIL.;;;;;;;;;Profit for the year;Profit for the year;PROFIT FOR THE YEAR;;;;;;;
+PCOP;129000;X;129000;;14.02.2007;CBL;;BIL.;;;;;;;;;Loss for the year;Loss for the year;LOSS FOR THE YEAR;;;;;;;
+PCOP;145000;X;145000;;02.12.2010;PDUP;;BIL.;;;;;;;;;AMORT.DEROGATOIRES;AMORT.DEROGATOIRES;AMORT.DEROGATOIRES;;;;;;;
+PCOP;151100;X;151100;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for risks;Provisions for risks (litigation);PROVISIONS FOR RISKS (LIT;;;;;;;
+PCOP;151200;X;151200;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for risks;Provisions for risks (customer guarantees);PROVISIONS FOR RISKS (CUS;;;;;;;
+PCOP;151300;X;151300;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for risks;Provisions for risks (forward market losses);PROVISIONS FOR RISKS (FOR;;;;;;;
+PCOP;151400;X;151400;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for risks;Provisions for risks (fines and penalties);PROVISIONS FOR RISKS (FIN;;;;;;;
+PCOP;151500;X;151500;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for risks;Provisions for risks (foreign exchange losses);PROVISIONS FOR RISKS (FOR;;;;;;;
+PCOP;151800;X;151800;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for risks;Provisions for risks (others);PROVISIONS FOR RISKS (OTH;;;;;;;
+PCOP;155000;X;155000;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for taxes;Provisions for taxes;PROVISIONS FOR TAXES;;;;;;;
+PCOP;158200;X;158200;;14.02.2007;CBL;;SAKO;;;;;;;;;Provisions for socia;Provisions for social and tax charges on paid vaca;PROVISIONS FOR SOCIAL AND;;;;;;;
+PCOP;164000;X;164000;;14.02.2007;CBL;;SAKO;;;;;;;;;Loans from credit in;Loans from credit institutions;LOANS FROM CREDIT INSTITU;;;;;;;
+PCOP;165100;X;165100;;14.02.2007;CBL;;SAKO;;;;;;;;;Deposits received;Deposits received;DEPOSITS RECEIVED;;;;;;;
+PCOP;165500;X;165500;;14.02.2007;CBL;;SAKO;;;;;;;;;Guarantees received;Guarantees received;GUARANTEES RECEIVED;;;;;;;
+PCOP;168850;X;168850;;14.02.2007;CBL;;SAKO;;;;;;;;;Accrued interest (on;Accrued interest (on deposits and guarantees recei;ACCRUED INTEREST (ON DEPO;;;;;;;
+PCOP;168880;X;168880;;16.05.2014;PDUP;;SAKO;;;;;;;;;Accrued interest on;Accrued interest on loans and debts;ACCRUED INTEREST ON LOANS;;;;;;;
+PCOP;181000;X;181000;;27.04.2007;CCOCUELLE;;SAKO;;;;;;;;;Inter-establishment;Inter-establishment liaison account;INTER-ESTABLISHMENT LIAIS;;;;;;;
+PCOP;186000;X;186000;;14.02.2007;CBL;;SAKO;;;;;;;;;Intercompany charges;Intercompany charges for goods and services;INTERCOMPANY CHARGES FOR;;;;;;;
+PCOP;187000;X;187000;;14.02.2007;CBL;;SAKO;;;;;;;;;Intercompany income;Intercompany income from goods and services;INTERCOMPANY INCOME FROM;;;;;;;
+PCOP;201000;X;201000;;02.12.2010;PDUP;;BIL.;;;;;;;;;FRAIS D'ETABLISSEMEN;FRAIS D'ETABLISSEMENT;FRAIS D'ETABLISSEMENT;;;;;;;
+PCOP;203000;X;203000;;14.02.2007;CBL;;IMMO;;;;;;;;;Research and develop;Research and development costs;RESEARCH AND DEVELOPMENT;;;;;;;
+PCOP;205000;X;205000;;14.02.2007;CBL;;IMMO;;;;;;;;;Concessions and simi;Concessions and similar rights (patents, etc.);CONCESSIONS AND SIMILAR R;;;;;;;
+PCOP;207000;X;207000;;30.11.2010;PDUP;;BIL.;;;;;;;;;Goodwill;Goodwill;GOODWILL;;;;;;;
+PCOP;208000;X;208000;;14.02.2007;CBL;;IMMO;;;;;;;;;Other intangible fix;Other intangible fixed assets;OTHER INTANGIBLE FIXED AS;;;;;;;
+PCOP;210000;X;210000;;28.12.2007;IGE;;SAKO;;;;;;;;;Non-operating fixed;Non-operating fixed assets;NON-OPERATING FIXED ASSET;;;;;;;
+PCOP;213810;X;213810;;26.06.2019;CENSIO;;IMMO;;;;;;;;;Infrastructure works;Infrastructure works (roads, etc.);INFRASTRUCTURE WORKS (ROA;;;;;;;
+PCOP;218100;X;218100;;14.02.2007;CBL;;IMMO;;;;;;;;;Other tangible fixed;Other tangible fixed assets (general installations;OTHER TANGIBLE FIXED ASSE;;;;;;;
+PCOP;218200;X;218200;;14.02.2007;CBL;;IMMO;;;;;;;;;Other tangible fixed;Other tangible fixed assets (transport equipment);OTHER TANGIBLE FIXED ASSE;;;;;;;
+PCOP;218300;X;218300;;14.02.2007;CBL;;SAKO;;;;;;;;;Other tangible fixed;Other tangible fixed assets (office and IT equipme;OTHER TANGIBLE FIXED ASSE;;;;;;;
+PCOP;218310;X;218310;;30.01.2008;IGE;;IMMO;;;;;;;;;Other tangible asset;Other tangible assets (office and IT equ;OTHER TANGIBLE ASSETS (OF;;;;;;;
+PCOP;218400;X;218400;;14.02.2007;CBL;;IMMO;;;;;;;;;Other tangible fixed;Other tangible fixed assets (furniture);OTHER TANGIBLE FIXED ASSE;;;;;;;
+PCOP;218410;X;218410;;14.02.2007;CBL;;IMMO;;;;;;;;;Other tangible fixed;Other tangible fixed assets (furniture) Lille;OTHER TANGIBLE FIXED ASSE;;;;;;;
+PCOP;220000;X;220000;;13.01.2025;8417;;SAKO;;;;;;;;;Land;Land;LAND;;;;;;;
+PCOP;222000;X;222000;;13.01.2025;8417;;SAKO;;;;;;;;;Developed land;Developed land;DEVELOPED LAND;;;;;;;
+PCOP;232000;X;232000;;12.01.2012;PDUP;;BIL.;;;;;;;;;Intangible assets in;Intangible assets in progress;INTANGIBLE ASSETS IN PROG;;;;;;;
+PCOP;238800;X;238800;;14.02.2007;CBL;;IMMO;;;;;;;;;Advances and payment;Advances and payments on account for tangible fixe;ADVANCES AND PAYMENTS ON;;;;;;;
+PCOP;238801;X;238801;;09.05.2018;JGUE;;BIL.;;;;;;;;;AVCES & ACPTES VERSE;AVCES & ACPTES VERSES/CDES.D'IMMOB.CORP.;AVCES & ACPTES VERSES/CDE;;;;;;;
+PCOP;250000;X;250000;;14.02.2007;CBL;;SAKO;;;;;;;;;Related companies -;Related companies - shares and receivables;RELATED COMPANIES - SHARE;;;;;;;
+PCOP;261100;X;261100;;14.02.2007;CBL;;BIL.;;;;;;;;;Equity investments (;Equity investments (shares);EQUITY INVESTMENTS (SHARE;;;;;;;
+PCOP;261800;X;261800;;14.02.2007;CBL;;BIL.;;;;;;;;;Equity investments (;Equity investments (other securities);EQUITY INVESTMENTS (OTHER;;;;;;;
+PCOP;266000;X;266000;;14.02.2007;CBL;;BIL.;;;;;;;;;Other forms of equit;Other forms of equity investment;OTHER FORMS OF EQUITY INV;;;;;;;
+PCOP;267100;X;267100;;14.02.2007;CBL;;BIL.;;;;;;;;;Receivables related;Receivables related to equity investments (group);RECEIVABLES RELATED TO EQ;;;;;;;
+PCOP;267400;X;267400;;14.02.2007;CBL;;BIL.;;;;;;;;;Receivables related;Receivables related to equity investments (outside;RECEIVABLES RELATED TO EQ;;;;;;;
+PCOP;267800;X;267800;;14.02.2007;CBL;;BIL.;;;;;;;;;Accrued interest;Accrued interest;ACCRUED INTEREST;;;;;;;
+PCOP;269000;X;269000;;04.12.2014;PDUP;;BIL.;;;;;;;;;A VERSER TITRES PART;RESTE A VERSER TITRES DE PARTICIPATION (;RESTE A VERSER TITRES DE;;;;;;;
+PCOP;274200;X;274200;;14.02.2007;CBL;;BIL.;;;;;;;;;Loans to partners;Loans to partners;LOANS TO PARTNERS;;;;;;;
+PCOP;274300;X;274300;;14.02.2007;CBL;;BIL.;;;;;;;;;Loans to staff;Loans to staff;LOANS TO STAFF;;;;;;;
+PCOP;275100;X;275100;;14.02.2007;CBL;;BIL.;;;;;;;;;Deposits paid;Deposits paid;DEPOSITS PAID;;;;;;;
+PCOP;275200;X;275200;;04.01.2021;JGUE;;BIL.;;;;;;;;;Factor Guarantee;Factor Guarantee;FACTOR GUARANTEE;;;;;;;
+PCOP;275500;X;275500;;14.02.2007;CBL;;BIL.;;;;;;;;;Guarantees paid;Guarantees paid;GUARANTEES PAID;;;;;;;
+PCOP;276100;X;276100;;14.02.2007;CBL;;BIL.;;;;;;;;;Receivables related;Receivables related to equity investments;RECEIVABLES RELATED TO EQ;;;;;;;
+PCOP;276840;X;276840;;14.02.2007;CBL;;BIL.;;;;;;;;;Accrued interest (on;Accrued interest (on loans);ACCRUED INTEREST (ON LOAN;;;;;;;
+PCOP;276850;X;276850;;15.02.2007;CBL;;BIL.;;;;;;;;;Accrued interest (on;Accrued interest (on deposits and guarantees);ACCRUED INTEREST (ON DEPO;;;;;;;
+PCOP;276880;X;276880;;15.02.2007;CBL;;BIL.;;;;;;;;;Accrued interest (on;Accrued interest (on other receivables);ACCRUED INTEREST (ON OTHE;;;;;;;
+PCOP;277100;X;277100;;30.01.2013;PDUP;;BIL.;;;;;;;;;TITRES AUTODETENUS;TITRES AUTODETENUS;TITRES AUTODETENUS;;;;;;;
+PCOP;280100;X;280100;;20.06.2011;PDUP;;BIL.;;;;;;;;;Amortization of inco;Amortization of incorporation costs;AMORTIZATION OF INCORPORA;;;;;;;
+PCOP;280500;X;280500;;30.01.2008;IGE;;IMMO;;;;;;;;;Amortization of pate;Amortization of patents and licenses;AMORTIZATION OF PATENTS A;;;;;;;
+PCOP;280800;X;280800;;15.02.2007;CBL;;IMMO;;;;;;;;;Amortization of othe;Amortization of other intangible fixed assets;AMORTIZATION OF OTHER INT;;;;;;;
+PCOP;281180;X;281180;;07.05.2019;JGUE;;IMMO;;;;;;;;;Amortization of buil;Amortization of buildings;AMORTIZATION OF BUILDINGS;;;;;;;
+PCOP;281350;X;281350;;15.02.2007;CBL;;IMMO;;;;;;;;;Amortization of gene;Amortization of general installations;AMORTIZATION OF GENERAL I;;;;;;;
+PCOP;281800;X;281800;;11.02.2009;JCO;;BIL.;;;;;;;;;Amortization of tang;Amortization of tangible fixed assets (situational;AMORTIZATION OF TANGIBLE;;;;;;;
+PCOP;281820;X;281820;;11.02.2009;JCO;;IMMO;;;;;;;;;Amortization of tang;Amortization of tangible fixed assets (vehicles);AMORTIZATION OF TANGIBLE;;;;;;;
+PCOP;281830;X;281830;;15.02.2007;CBL;;IMMO;;;;;;;;;Amortization of tang;Amortization of tangible fixed assets (office and;AMORTIZATION OF TANGIBLE;;;;;;;
+PCOP;281831;X;281831;;30.01.2008;IGE;;IMMO;;;;;;;;;Amortization of tang;Amortization of tangible fixed assets (office and;AMORTIZATION OF TANGIBLE;;;;;;;
+PCOP;281840;X;281840;;15.02.2007;CBL;;IMMO;;;;;;;;;Amortization of tang;Amortization of tangible fixed assets (furniture);AMORTIZATION OF TANGIBLE;;;;;;;
+PCOP;281841;X;281841;;15.02.2007;CBL;;IMMO;;;;;;;;;Amortization of tang;Amortization of tangible fixed assets (furniture);AMORTIZATION OF TANGIBLE;;;;;;;
+PCOP;290800;X;290800;;15.02.2007;CBL;;SAKO;;;;;;;;;Provision for other;Provision for other intangible fixed assets;PROVISION FOR OTHER INTAN;;;;;;;
+PCOP;293180;X;293180;;15.02.2007;CBL;;SAKO;;;;;;;;;Provision for tangib;Provision for tangible fixed assets in progress;PROVISION FOR TANGIBLE FI;;;;;;;
+PCOP;296110;X;296110;;15.02.2007;CBL;;BIL.;;;;;;;;;Provision for equity;Provision for equity investments (shares);PROVISION FOR EQUITY INVE;;;;;;;
+PCOP;296180;X;296180;;15.02.2007;CBL;;BIL.;;;;;;;;;Provision for equity;Provision for equity investments (other securities;PROVISION FOR EQUITY INVE;;;;;;;
+PCOP;297610;X;297610;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for other;Provision for other receivables;PROVISION FOR OTHER RECEI;;;;;;;
+PCOP;297688;X;297688;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for accrue;Provision for accrued interest (on other receivabl;PROVISION FOR ACCRUED INT;;;;;;;
+PCOP;345100;X;345100;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Services in progress;Services in progress - S1;SERVICES IN PROGRESS - S1;;;;;;;
+PCOP;345200;X;345200;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Services in progress;Services in progress - S2;SERVICES IN PROGRESS - S2;;;;;;;
+PCOP;345500;X;345500;;18.02.2009;JCO;;BIL.;;;;;;;;;Stock of technical e;Stock of technical equipment;STOCK OF TECHNICAL EQUIPM;;;;;;;
+PCOP;393110;X;393110;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Provision for deprec;Provision for depreciation of products in progress;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;394100;X;394100;;11.06.2009;JCO;;BIL.;;;;;;;;;Provision for techni;Provision for technical stock;PROVISION FOR TECHNICAL S;;;;;;;
+PCOP;394110;X;394110;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Provision for deprec;Provision for depreciation of studies in progress;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;394120;X;394120;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Provision for deprec;Provision for depreciation of studies in progress;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;394510;X;394510;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Provision for deprec;Provision for depreciation of services in progress;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;394520;X;394520;;25.03.2007;CCOCUELLE;;MAT.;;;;;;;;;Provision for deprec;Provision for depreciation of services in progress;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;401100;X;401100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers of goods o;Suppliers of goods or services (domestic);SUPPLIERS OF GOODS OR SER;;;;;;;
+PCOP;401198;X;401198;;23.10.2017;JGUE;;BIL.;;;;;;;;;FOURN. INTERCO CORR.;FOURN. ACHATS DE BIENS OU PREST. (CORR.;FOURN. ACHATS DE BIENS OU;;;;;;;
+PCOP;401199;X;401199;;23.10.2017;JGUE;;BIL.;;;;;;;;;FOURN. INTERCO CORR.;FOURN. ACHATS DE BIENS OU PREST. (CORREC;FOURN. ACHATS DE BIENS OU;;;;;;;
+PCOP;401200;X;401200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers of goods o;Suppliers of goods or services (foreign);SUPPLIERS OF GOODS OR SER;;;;;;;
+PCOP;401300;X;401300;;23.10.2017;JGUE;;RECO;;;;;;;;;Accounts Payable IC;Accounts Payable Interco;ACCOUNTS PAYABLE INTERCO;;;;;;;
+PCOP;401998;X;401998;;13.11.2017;JGUE;;BIL.;;;;;;;;;FOURN. INTERCO CORR.;FOURN. ACHATS DE BIENS OU PREST. (CORR.;FOURN. ACHATS DE BIENS OU;;;;;;;
+PCOP;401999;X;401999;;13.11.2017;JGUE;;BIL.;;;;;;;;;FOURN. INTERCO CORR.;FOURN. ACHATS DE BIENS OU PREST. (CORREC;FOURN. ACHATS DE BIENS OU;;;;;;;
+PCOP;403100;X;403100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Supplier payments pe;Supplier payments pending;SUPPLIER PAYMENTS PENDING;;;;;;;
+PCOP;404100;X;404100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Suppliers of fixed a;Suppliers of fixed assets;SUPPLIERS OF FIXED ASSETS;;;;;;;
+PCOP;404200;X;404200;;16.02.2009;JCO;;RECO;;;;;;;;;Suppliers of fixed a;Suppliers of fixed assets (foreign);SUPPLIERS OF FIXED ASSETS;;;;;;;
+PCOP;408100;X;408100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - invoices;Suppliers - invoices not received (domestic);SUPPLIERS - INVOICES NOT;;;;;;;
+PCOP;408110;X;408110;;16.07.2008;JCO;;BIL.;;;;;;;;;Suppliers - invoices;Suppliers - invoices not received;SUPPLIERS - INVOICES NOT;;;;;;;
+PCOP;408120;X;408120;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Goods received - inv;Goods received - invoice/purchase;GOODS RECEIVED - INVOICE/;;;;;;;
+PCOP;408129;X;408129;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Goods received - inv;Goods received - invoice/purchase (correction);GOODS RECEIVED - INVOICE/;;;;;;;
+PCOP;408131;X;408131;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Estimated transport;Estimated transport costs;ESTIMATED TRANSPORT COSTS;;;;;;;
+PCOP;408132;X;408132;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Transport costs - in;Transport costs - invoice to be received;TRANSPORT COSTS - INVOICE;;;;;;;
+PCOP;408141;X;408141;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Estimated customs co;Estimated customs costs;ESTIMATED CUSTOMS COSTS;;;;;;;
+PCOP;408142;X;408142;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Customs costs - invo;Customs costs - invoice to be received;CUSTOMS COSTS - INVOICE T;;;;;;;
+PCOP;408150;X;408150;;04.01.2011;PDUP;;BIL.;;;;;;;;;Business estimated p;Business estimated provisions;BUSINESS ESTIMATED PROVIS;;;;;;;
+PCOP;408151;X;408151;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Additional estimated;Additional estimated costs;ADDITIONAL ESTIMATED COST;;;;;;;
+PCOP;408160;X;408160;;04.01.2011;PDUP;;BIL.;;;;;;;;;General expenses est;General expenses estimated provisions;GENERAL EXPENSES ESTIMATE;;;;;;;
+PCOP;408200;X;408200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - invoices;Suppliers - invoices not received (foreign);SUPPLIERS - INVOICES NOT;;;;;;;
+PCOP;408400;X;408400;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers of fixed a;Suppliers of fixed assets - invoices not received;SUPPLIERS OF FIXED ASSETS;;;;;;;
+PCOP;408800;X;408800;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - accrued;Suppliers - accrued interest;SUPPLIERS - ACCRUED INTER;;;;;;;
+PCOP;409100;X;409100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - advances;Suppliers - advances and deposits (domestic);SUPPLIERS - ADVANCES AND;;;;;;;
+PCOP;409200;X;409200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - advances;Suppliers - advances and deposits (foreign);SUPPLIERS - ADVANCES AND;;;;;;;
+PCOP;409800;X;409800;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - rebates;Suppliers - rebates and credits not received;SUPPLIERS - REBATES AND C;;;;;;;
+PCOP;409810;X;409810;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Suppliers - rebates;Suppliers - rebates and credits not received (dome;SUPPLIERS - REBATES AND C;;;;;;;
+PCOP;409820;X;409820;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers - rebates;Suppliers - rebates and credits not received (fore;SUPPLIERS - REBATES AND C;;;;;;;
+PCOP;409840;X;409840;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Suppliers of fixed a;Suppliers of fixed assets - rebates and credits no;SUPPLIERS OF FIXED ASSETS;;;;;;;
+PCOP;409850;X;409850;;28.05.2012;PDUP;;BIL.;;;;;;;;;General expenses acc;General expenses accrued adjustments;GENERAL EXPENSES ACCRUED;;;;;;;
+PCOP;409910;X;409910;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Supplier debtors;Supplier debtors;SUPPLIER DEBTORS;;;;;;;
+PCOP;409999;X;409999;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Supplier requests fo;Supplier requests for advances;SUPPLIER REQUESTS FOR ADV;;;;;;;
+PCOP;411100;X;411100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - sales of;Customers - sales of goods or services (domestic);CUSTOMERS - SALES OF GOOD;;;;;;;
+PCOP;411198;X;411198;;23.10.2017;JGUE;;BIL.;;;;;;;;;CLTS INTERCO CORR.;CLTS VENTES DE BIENS OU PREST.SERV.(CORR;CLTS VENTES DE BIENS OU P;;;;;;;
+PCOP;411199;X;411199;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Customers - sales of;Customers - sales of goods or services (correction;CUSTOMERS - SALES OF GOOD;;;;;;;
+PCOP;411200;X;411200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - sales of;Customers - sales of goods or services (foreign);CUSTOMERS - SALES OF GOOD;;;;;;;
+PCOP;411300;X;411300;;23.10.2017;JGUE;;RECO;;;;;;;;;Intercompany sales;Intercompany sales;INTERCOMPANY SALES;;;;;;;
+PCOP;411700;X;411700;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - retentio;Customers - retention guarantees;CUSTOMERS - RETENTION GUA;;;;;;;
+PCOP;411710;X;411710;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - retentio;Customers - retention guarantees (domestic);CUSTOMERS - RETENTION GUA;;;;;;;
+PCOP;411720;X;411720;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - retentio;Customers - retention guarantees (foreign);CUSTOMERS - RETENTION GUA;;;;;;;
+PCOP;411998;X;411998;;06.11.2017;JGUE;;BIL.;;;;;;;;;CLTS INTERCO CORR.;CLTS VENTES DE BIENS OU PREST.SERV.(CORR;CLTS VENTES DE BIENS OU P;;;;;;;
+PCOP;411999;X;411999;;06.11.2017;JGUE;;BIL.;;;;;;;;;Receivables Factor;Receivables assigned Factor;RECEIVABLES ASSIGNED FACT;;;;;;;
+PCOP;413000;X;413000;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customer receivables;Customer receivables;CUSTOMER RECEIVABLES;;;;;;;
+PCOP;413100;X;413100;;16.12.2008;JCO;;BIL.;;;;;;;;;Notes receivable;Notes receivable;NOTES RECEIVABLE;;;;;;;
+PCOP;413101;X;413101;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Customers - notes re;Customers - notes receivable;CUSTOMERS - NOTES RECEIVA;;;;;;;
+PCOP;416000;X;416000;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Doubtful or disputed;Doubtful or disputed receivables;DOUBTFUL OR DISPUTED RECE;;;;;;;
+PCOP;416100;X;416100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Doubtful or disputed;Doubtful or disputed receivables (domestic);DOUBTFUL OR DISPUTED RECE;;;;;;;
+PCOP;416200;X;416200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Doubtful or disputed;Doubtful or disputed receivables (foreign);DOUBTFUL OR DISPUTED RECE;;;;;;;
+PCOP;418000;X;418000;;27.07.2010;PDUP;;BIL.;;;;;;;;;Invoices to be issue;Invoices to be issued;INVOICES TO BE ISSUED;;;;;;;
+PCOP;418100;X;418100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Invoices to be issue;Invoices to be issued (domestic);INVOICES TO BE ISSUED (DO;;;;;;;
+PCOP;418110;X;418110;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Commissions to be re;Commissions to be received (estimates);COMMISSIONS TO BE RECEIVE;;;;;;;
+PCOP;418120;X;418120;;17.07.2008;JCO;;BIL.;;;;;;;;;Invoices to be issue;Invoices to be issued (domestic);INVOICES TO BE ISSUED (DO;;;;;;;
+PCOP;418200;X;418200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Invoices to be issue;Invoices to be issued (foreign);INVOICES TO BE ISSUED (FO;;;;;;;
+PCOP;418800;X;418800;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Accrued interest fro;Accrued interest from customers;ACCRUED INTEREST FROM CUS;;;;;;;
+PCOP;418900;X;418900;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Buffer account - pur;Buffer account - purchases on behalf of third part;BUFFER ACCOUNT - PURCHASE;;;;;;;
+PCOP;419100;X;419100;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - advances;Customers - advances and deposits received (domest;CUSTOMERS - ADVANCES AND;;;;;;;
+PCOP;419200;X;419200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - advances;Customers - advances and deposits received (foreig;CUSTOMERS - ADVANCES AND;;;;;;;
+PCOP;419800;X;419800;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - rebates;Customers - rebates and credits to be issued;CUSTOMERS - REBATES AND C;;;;;;;
+PCOP;419810;X;419810;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - rebates;Customers - rebates and credits to be issued (dome;CUSTOMERS - REBATES AND C;;;;;;;
+PCOP;419820;X;419820;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Customers - rebates;Customers - rebates and credits to be issued (fore;CUSTOMERS - REBATES AND C;;;;;;;
+PCOP;419840;X;419840;;13.05.2013;PDUP;;BIL.;;;;;;;;;Customers - credit n;Customers - credit notes to be issued;CUSTOMERS - CREDIT NOTES;;;;;;;
+PCOP;419910;X;419910;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Customer creditors;Customer creditors;CUSTOMER CREDITORS;;;;;;;
+PCOP;419999;X;419999;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Customer requests fo;Customer requests for advances;CUSTOMER REQUESTS FOR ADV;;;;;;;
+PCOP;421000;X;421000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - salaries due;Staff - salaries due;STAFF - SALARIES DUE;;;;;;;
+PCOP;422000;X;422000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Works council - esta;Works council - establishment level;WORKS COUNCIL - ESTABLISH;;;;;;;
+PCOP;424600;X;424600;;23.09.2008;JCO;;BIL.;;;;;;;;;Employee participati;Employee participation;EMPLOYEE PARTICIPATION;;;;;;;
+PCOP;425100;X;425100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - advances on;Staff - advances on travel expenses;STAFF - ADVANCES ON TRAVE;;;;;;;
+PCOP;425200;X;425200;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Staff - permanent ad;Staff - permanent advances;STAFF - PERMANENT ADVANCE;;;;;;;
+PCOP;425300;X;425300;;27.04.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - salary advan;Staff - salary advances;STAFF - SALARY ADVANCES;;;;;;;
+PCOP;425400;X;425400;;01.07.2020;JGUE;;BIL.;;;;;;;;;Concur Expenses Adva;Concur Expenses Cash Advance;CONCUR EXPENSES CASH ADVA;;;;;;;
+PCOP;426000;X;426000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - deposits;Staff - deposits;STAFF - DEPOSITS;;;;;;;
+PCOP;427000;X;427000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - garnishments;Staff - garnishments;STAFF - GARNISHMENTS;;;;;;;
+PCOP;427100;X;427100;;01.12.2016;JGUE;;BIL.;;;;;;;;;Staff - salary trans;Staff - salary transfers;STAFF - SALARY TRANSFERS;;;;;;;
+PCOP;428200;X;428200;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - debts for va;Staff - debts for vacation pay provisions;STAFF - DEBTS FOR VACATIO;;;;;;;
+PCOP;428600;X;428600;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - other liabil;Staff - other liabilities;STAFF - OTHER LIABILITIES;;;;;;;
+PCOP;428650;X;428650;;11.12.2024;JGUE;;BIL.;;;;;;;;;FR Prov Prime Vac.;FR Prov Prime Vacances 06/AAAA;FR PROV PRIME VACANCES 06;;;;;;;
+PCOP;428700;X;428700;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Staff - receivables;Staff - receivables;STAFF - RECEIVABLES;;;;;;;
+PCOP;431000;X;431000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Social security;Social security;SOCIAL SECURITY;;;;;;;
+PCOP;437000;X;437000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Other social organiz;Other social organizations;OTHER SOCIAL ORGANIZATION;;;;;;;
+PCOP;437100;X;437100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;ASSEDIC;ASSEDIC;ASSEDIC;;;;;;;
+PCOP;437200;X;437200;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Pension fund;Pension fund;PENSION FUND;;;;;;;
+PCOP;437205;X;437205;;24.04.2007;IGE;;BIL.;;;;;;;;;Retirement;Retirement;RETIREMENT;;;;;;;
+PCOP;437300;X;437300;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provident fund;Provident fund;PROVIDENT FUND;;;;;;;
+PCOP;437400;X;437400;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Mutual fund;Mutual fund;MUTUAL FUND;;;;;;;
+PCOP;437500;X;437500;;26.04.2011;PDUP;;BIL.;;;;;;;;;Occupational health;Occupational health;OCCUPATIONAL HEALTH;;;;;;;
+PCOP;438200;X;438200;;30.01.2008;IGE;;BIL.;;;;;;;;;Social organizations;Social organizations - liabilities;SOCIAL ORGANIZATIONS - LI;;;;;;;
+PCOP;438300;X;438300;;30.01.2008;IGE;;BIL.;;;;;;;;;Social charges / pre;Social charges / premiums;SOCIAL CHARGES / PREMIUMS;;;;;;;
+PCOP;438600;X;438600;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Social organizations;Social organizations - liabilities;SOCIAL ORGANIZATIONS - LI;;;;;;;
+PCOP;438650;X;438650;;11.12.2024;JGUE;;BIL.;;;;;;;;;FR Ch Prov Prime Vac;FR Chg. Prov Prime Vacances 06/AAAA;FR CHG. PROV PRIME VACANC;;;;;;;
+PCOP;438700;X;438700;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Social organizations;Social organizations - receivables;SOCIAL ORGANIZATIONS - RE;;;;;;;
+PCOP;442100;X;442100;;16.01.2019;OMAL;;BIL.;;;;;;;;;Witholding Tax Payab;Witholding Tax Payable Payroll;WITHOLDING TAX PAYABLE PA;;;;;;;
+PCOP;443200;X;443200;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;State - seizure orde;State - seizure order;STATE - SEIZURE ORDER;;;;;;;
+PCOP;444000;X;444000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;State tax on profits;State tax on profits;STATE TAX ON PROFITS;;;;;;;
+PCOP;445510;X;445510;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT to be paid;VAT to be paid;VAT TO BE PAID;;;;;;;
+PCOP;445580;X;445580;;14.02.2007;CBL;;BIL.;;;;;;;;;Taxes similar to VAT;Taxes similar to VAT to be paid;TAXES SIMILAR TO VAT TO B;;;;;;;
+PCOP;445620;X;445620;;13.02.2007;CBL;;BIL.;;;;;;;;;Deductible VAT / fix;Deductible VAT / fixed assets;DEDUCTIBLE VAT / FIXED AS;;;;;;;
+PCOP;445621;X;445621;;13.02.2007;CBL;;BIL.;;;;;;;;;Deductible VAT / fix;Deductible VAT / fixed assets;DEDUCTIBLE VAT / FIXED AS;;;;;;;
+PCOP;445625;X;445625;;13.02.2007;CBL;;BIL.;;;;;;;;;Deductible VAT / fix;Deductible VAT / fixed assets (receipts) 19.60%;DEDUCTIBLE VAT / FIXED AS;;;;;;;
+PCOP;445626;X;445626;;14.02.2007;CBL;;BIL.;;;;;;;;;Deductible VAT (corr;Deductible VAT (correction);DEDUCTIBLE VAT (CORRECTIO;;;;;;;
+PCOP;445660;X;445660;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT on other goods a;VAT on other goods and services;VAT ON OTHER GOODS AND SE;;;;;;;
+PCOP;445661;X;445661;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT on other goods a;VAT on other goods and services 2.10%;VAT ON OTHER GOODS AND SE;;;;;;;
+PCOP;445662;X;445662;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT on other goods a;VAT on other goods and services (TR);VAT ON OTHER GOODS AND SE;;;;;;;
+PCOP;445663;X;445663;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT on other goods a;VAT on other goods and services (TN);VAT ON OTHER GOODS AND SE;;;;;;;
+PCOP;445665;X;445665;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT on other goods a;VAT on other goods and services (receipts) 5.50%;VAT ON OTHER GOODS AND SE;;;;;;;
+PCOP;445666;X;445666;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT on other goods a;VAT on other goods and services (receipts) 20.00%;VAT ON OTHER GOODS AND SE;;;;;;;
+PCOP;445670;X;445670;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT credit to carry;VAT credit to carry forward;VAT CREDIT TO CARRY FORWA;;;;;;;
+PCOP;445680;X;445680;;14.02.2007;CBL;;BIL.;;;;;;;;;Taxes similar to VAT;Taxes similar to VAT deductible;TAXES SIMILAR TO VAT DEDU;;;;;;;
+PCOP;445690;X;445690;;13.02.2007;CBL;;BIL.;;;;;;;;;Deductible VAT on EU;Deductible VAT on EU imports;DEDUCTIBLE VAT ON EU IMPO;;;;;;;
+PCOP;445710;X;445710;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT collected;VAT collected;VAT COLLECTED;;;;;;;
+PCOP;445711;X;445711;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT collected (TR);VAT collected (TR);VAT COLLECTED (TR);;;;;;;
+PCOP;445712;X;445712;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT collected (TN);VAT collected (TN);VAT COLLECTED (TN);;;;;;;
+PCOP;445713;X;445713;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT collected (doubt;VAT collected (doubtful);VAT COLLECTED (DOUBTFUL);;;;;;;
+PCOP;445715;X;445715;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT collected (recei;VAT collected (receipts) 8.0%;VAT COLLECTED (RECEIPTS);;;;;;;
+PCOP;445716;X;445716;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT collected (recei;VAT collected (receipts);VAT COLLECTED (RECEIPTS);;;;;;;
+PCOP;445717;X;445717;;31.03.2014;JGUE;;BIL.;;;;;;;;;VAT collected 19.25%;VAT collected 19.25% Cameroon receipts;VAT COLLECTED 19.25% CAME;;;;;;;
+PCOP;445780;X;445780;;14.02.2007;CBL;;BIL.;;;;;;;;;Taxes similar to VAT;Taxes similar to VAT collected;TAXES SIMILAR TO VAT COLL;;;;;;;
+PCOP;445790;X;445790;;13.02.2007;CBL;;BIL.;;;;;;;;;VAT collected on EU;VAT collected on EU imports;VAT COLLECTED ON EU IMPOR;;;;;;;
+PCOP;445830;X;445830;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT refunds requeste;VAT refunds requested;VAT REFUNDS REQUESTED;;;;;;;
+PCOP;445840;X;445840;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT recovered in adv;VAT recovered in advance;VAT RECOVERED IN ADVANCE;;;;;;;
+PCOP;445860;X;445860;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / invoices not r;VAT / invoices not received;VAT / INVOICES NOT RECEIV;;;;;;;
+PCOP;445861;X;445861;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / invoices not r;VAT / invoices not received 5.50%;VAT / INVOICES NOT RECEIV;;;;;;;
+PCOP;445862;X;445862;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / invoices not r;VAT / invoices not received 19.60%;VAT / INVOICES NOT RECEIV;;;;;;;
+PCOP;445865;X;445865;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / credits not re;VAT / credits not received;VAT / CREDITS NOT RECEIVE;;;;;;;
+PCOP;445866;X;445866;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / credits not re;VAT / credits not received 5.50%;VAT / CREDITS NOT RECEIVE;;;;;;;
+PCOP;445867;X;445867;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / credits not re;VAT / credits not received 19.60%;VAT / CREDITS NOT RECEIVE;;;;;;;
+PCOP;445870;X;445870;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / invoices to be;VAT / invoices to be issued;VAT / INVOICES TO BE ISSU;;;;;;;
+PCOP;445871;X;445871;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / invoices to be;VAT / invoices to be issued 5.50%;VAT / INVOICES TO BE ISSU;;;;;;;
+PCOP;445872;X;445872;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / invoices to be;VAT / invoices to be issued 19.60%;VAT / INVOICES TO BE ISSU;;;;;;;
+PCOP;445875;X;445875;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / credits to be;VAT / credits to be issued;VAT / CREDITS TO BE ISSUE;;;;;;;
+PCOP;445876;X;445876;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / credits to be;VAT / credits to be issued 5.50%;VAT / CREDITS TO BE ISSUE;;;;;;;
+PCOP;445877;X;445877;;14.02.2007;CBL;;BIL.;;;;;;;;;VAT / credits to be;VAT / credits to be issued 19.60%;VAT / CREDITS TO BE ISSUE;;;;;;;
+PCOP;447000;X;447000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Other taxes and simi;Other taxes and similar payments;OTHER TAXES AND SIMILAR P;;;;;;;
+PCOP;447600;X;447600;;17.05.2011;PDUP;;BIL.;;;;;;;;;Withholding taxes fr;Withholding taxes from customers;WITHHOLDING TAXES FROM CU;;;;;;;
+PCOP;448200;X;448200;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Charges on paid leav;Charges on paid leave;CHARGES ON PAID LEAVE;;;;;;;
+PCOP;448600;X;448600;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;State - charges to b;State - charges to be paid;STATE - CHARGES TO BE PAI;;;;;;;
+PCOP;448630;X;448630;;07.01.2025;JGUE;;BIL.;;;;;;;;;Form Pro Convention;Formation Professionnelle Conventionnelle;FORMATION PROFESSIONNELLE;;;;;;;
+PCOP;448700;X;448700;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;State - receivables;State - receivables;STATE - RECEIVABLES;;;;;;;
+PCOP;451069;X;451069;;22.03.2022;JGUE;;BIL.;;;;;;;;;COMPTE COURANT ITO;COMPTE COURANT ITO;COMPTE COURANT ITO;;;;;;;
+PCOP;451071;X;451071;;20.04.2022;JGUE;;BIL.;;;;;;;;;COMPTE COURANT IBS;COMPTE COURANT INTEGRA Business Service;COMPTE COURANT INTEGRA BU;;;;;;;
+PCOP;451075;X;451075;;05.09.2022;JGUE;;BIL.;;;;;;;;;CC HR Path Cz;COMPTE COURANT HR Path Cz;COMPTE COURANT HR PATH CZ;;;;;;;
+PCOP;451080;X;451080;;14.11.2023;JGUE;;BIL.;;;;;;;;;CPTE CRT GRH SERV;COMPTE COURANT GRH Services;COMPTE COURANT GRH SERVIC;;;;;;;
+PCOP;451082;X;451082;;13.09.2023;OMAL;;BIL.;;;;;;;;;COMPTE COURANT PORTU;COMPTE COURANT HR PATH PORTUGAL;COMPTE COURANT HR PATH PO;;;;;;;
+PCOP;451083;X;451083;;25.07.2024;TDUP;;BIL.;;;;;;;;;CPTE CRT FIZZ;COMPTE COURANT FIZZ;COMPTE COURANT FIZZ;;;;;;;
+PCOP;451084;X;451084;;04.04.2024;JGUE;;BIL.;;;;;;;;;CURRENT ACC. 3PLUS;CURRENT ACCOUNT 3PLUS;CURRENT ACCOUNT 3PLUS;;;;;;;
+PCOP;451085;X;451085;;04.04.2024;JGUE;;BIL.;;;;;;;;;CURRENT ACC. ITZ;CURRENT ACCOUNT INTELLIGENZA;CURRENT ACCOUNT INTELLIGE;;;;;;;
+PCOP;451086;X;451086;;04.04.2024;JGUE;;BIL.;;;;;;;;;CURRENT ACC. GROUPEX;CURRENT ACCOUNT GROUPEX;CURRENT ACCOUNT GROUPEX;;;;;;;
+PCOP;451089;X;451089;;24.07.2024;JGUE;;BIL.;;;;;;;;;CPTE CRT BIDCO HRPP;COMPTE COURANT BIDCO HR PATH;COMPTE COURANT BIDCO HR P;;;;;;;
+PCOP;451090;X;451090;;24.07.2024;JGUE;;BIL.;;;;;;;;;CPTE CRT TOPCO HRP;COMPTE COURANT TOPCO HR PATH;COMPTE COURANT TOPCO HR P;;;;;;;
+PCOP;451100;X;451100;;23.06.2009;JCO;;BIL.;;;;;;;;;CBL current account;CBL current account;CBL CURRENT ACCOUNT;;;;;;;
+PCOP;451125;X;451125;;23.12.2015;JGUE;;BIL.;;;;;;;;;CPTE COURANT CLEVEOR;COMPTE COURANT CLEVEOR;COMPTE COURANT CLEVEOR;;;;;;;
+PCOP;451127;X;451127;;08.01.2016;PDUP;;BIL.;;;;;;;;;CPTE COURANT HUMAN;COMPTE COURANT HUMAN START;COMPTE COURANT HUMAN STAR;;;;;;;
+PCOP;451128;X;451128;;08.01.2016;PDUP;;BIL.;;;;;;;;;CPTE COURANT DESIGN;COMPTE COURANT DESIGN RH;COMPTE COURANT DESIGN RH;;;;;;;
+PCOP;451129;X;451129;;08.04.2016;PDUP;;BIL.;;;;;;;;;CPTE COURANT HR GSYS;COMPTE COURANT HR GSYS;COMPTE COURANT HR GSYS;;;;;;;
+PCOP;451130;X;451130;;08.04.2016;PDUP;;BIL.;;;;;;;;;CPTE COURANT HRMIND;COMPTE COURANT HRMIND;COMPTE COURANT HRMIND;;;;;;;
+PCOP;451132;X;451132;;01.07.2016;PDUP;;BIL.;;;;;;;;;CPTE COURANT CINETHI;COMPTE COURANT  CINETHIC;COMPTE COURANT  CINETHIC;;;;;;;
+PCOP;451133;X;451133;;07.09.2016;PDUP;;BIL.;;;;;;;;;CPTE COURANT STRATOR;COMPTE COURANT  STRATOR;COMPTE COURANT  STRATOR;;;;;;;
+PCOP;451134;X;451134;;21.09.2016;PDUP;;BIL.;;;;;;;;;C CT HRP MAROC;COMPTE COURANT  HRPATH MAROC;COMPTE COURANT  HRPATH MA;;;;;;;
+PCOP;451150;X;451150;;05.05.2014;PDUP;;BIL.;;;;;;;;;CPTE COURANT UK;COMPTE COURANT HRPATH UK;COMPTE COURANT HRPATH UK;;;;;;;
+PCOP;451152;X;451152;;19.11.2020;OMAL;;BIL.;;;;;;;;;COMPTE COURANT Go Cl;COMPTE COURANT Go Cloud France;COMPTE COURANT GO CLOUD F;;;;;;;
+PCOP;451153;X;451153;;15.06.2021;OMAL;;BIL.;;;;;;;;;COMPTE COURANT Go Cl;COMPTE COURANT Go Cloud UK;COMPTE COURANT GO CLOUD U;;;;;;;
+PCOP;451155;X;451155;;16.04.2015;PDUP;;BIL.;;;;;;;;;CPTE CT HRP ALLEMAGN;COMPTE COURANT HRP ALLEMAGNE;COMPTE COURANT HRP ALLEMA;;;;;;;
+PCOP;451160;X;451160;;05.05.2014;PDUP;;BIL.;;;;;;;;;CPTE COURANT ESPAGNE;COMPTE COURANT HRPATH ESPAGNE;COMPTE COURANT HRPATH ESP;;;;;;;
+PCOP;451165;X;451165;;16.04.2015;PDUP;;BIL.;;;;;;;;;CPTE CT HRP ROUMANIE;COMPTE COURANT HRP ROUMANIE;COMPTE COURANT HRP ROUMAN;;;;;;;
+PCOP;451170;X;451170;;25.02.2014;PDUP;;BIL.;;;;;;;;;CPTE COURANT VIETNAM;COMPTE COURANT HRPATH VIETNAM;COMPTE COURANT HRPATH VIE;;;;;;;
+PCOP;451175;X;451175;;18.06.2015;PDUP;;BIL.;;;;;;;;;CPTE COURANT SOFTWAR;COMPTE COURANT HR PATH SOFTWARE;COMPTE COURANT HR PATH SO;;;;;;;
+PCOP;451176;X;451176;;18.06.2015;PDUP;;BIL.;;;;;;;;;CPTE COURANT DELORT;COMPTE COURANT DELORT ET ASSOCIES;COMPTE COURANT DELORT ET;;;;;;;
+PCOP;451180;X;451180;;28.09.2011;PDUP;;BIL.;;;;;;;;;CC HR Path Holding;COMPTE COURANT HR PATH HOLDING (ex HENSOL);COMPTE COURANT HR PATH HO;;;;;;;
+PCOP;451190;X;451190;;07.12.2010;PDUP;;BIL.;;;;;;;;;DFHR current account;DFHR current account;DFHR CURRENT ACCOUNT;;;;;;;
+PCOP;451200;X;451200;;23.06.2009;JCO;;BIL.;;;;;;;;;GRH Consulting curre;GRH Consulting current account;GRH CONSULTING CURRENT AC;;;;;;;
+PCOP;451230;X;451230;;03.05.2018;JGUE;;BIL.;;;;;;;;;CC HR PATH BE;COMPTE COURANT HR PATH BE (ex Ataraxis NV Belgium);COMPTE COURANT HR PATH BE;;;;;;;
+PCOP;451240;X;451240;;24.04.2015;JGUE;;BIL.;;;;;;;;;CPTE COURANT HRP INT;COMPTE COURANT HR PATH INTEGRATION;COMPTE COURANT HR PATH IN;;;;;;;
+PCOP;451300;X;451300;;16.02.2010;JCO;;BIL.;;;;;;;;;HR Path current acco;HR Path current account;HR PATH CURRENT ACCOUNT;;;;;;;
+PCOP;451310;X;451310;;14.05.2017;JGUE;;BIL.;;;;;;;;;CPTE COURANT HOLDING;COMPTE COURANT HR PATH HOLDING;COMPTE COURANT HR PATH HO;;;;;;;
+PCOP;451311;X;451311;;25.07.2017;JGUE;;BIL.;;;;;;;;;CPTE COURANT TEAM13;COMPTE COURANT HR PATH TEAM13;COMPTE COURANT HR PATH TE;;;;;;;
+PCOP;451315;X;451315;;02.01.2018;JGUE;;BIL.;;;;;;;;;CPTE COURANT HRPATH;COMPTE COURANT HRPATH BV;COMPTE COURANT HRPATH BV;;;;;;;
+PCOP;451320;X;451320;;11.10.2017;JGUE;;BIL.;;;;;;;;;CPTE COURANT HRVOICE;COMPTE COURANT HR VOICE;COMPTE COURANT HR VOICE;;;;;;;
+PCOP;451347;X;451347;;11.04.2019;OMAL;;BIL.;;;;;;;;;CPTE CT HRPATH AND;COMPTE COURANT HRPATH AND;COMPTE COURANT HRPATH AND;;;;;;;
+PCOP;451362;X;451362;;06.05.2021;JGUE;;BIL.;;;;;;;;;CC HR PATH AND CO;Intercompany Transfer - HR Path And Co Blocked;INTERCOMPANY TRANSFER - H;;;;;;;
+PCOP;451400;X;451400;;03.01.2011;PDUP;;BIL.;;;;X;X;X;;;COMPTE COURANT HRMIN;COMPTE COURANT HRMIND NE PAS UTILISER;COMPTE COURANT HRMIND NE;;;;;;;
+PCOP;451410;X;451410;;27.06.2013;PDUP;;BIL.;;;;;;;;;ICRH Group current a;ICRH Group current account;ICRH GROUP CURRENT ACCOUN;;;;;;;
+PCOP;451420;X;451420;;27.06.2013;PDUP;;BIL.;;;;;;;;;ICRH Participations;ICRH Participations current account;ICRH PARTICIPATIONS CURRE;;;;;;;
+PCOP;451430;X;451430;;27.06.2013;PDUP;;BIL.;;;;;;;;;RHP current account;RHP current account;RHP CURRENT ACCOUNT;;;;;;;
+PCOP;451440;X;451440;;27.06.2013;PDUP;;BIL.;;;;;;;;;Q-BIK current accoun;Q-BIK current account;Q-BIK CURRENT ACCOUNT;;;;;;;
+PCOP;451441;X;451441;;03.05.2018;JGUE;;BIL.;;;;;;;;;CC ATARAXIS BV NL;COMPTE COURANT ATARAXIS BV NL;COMPTE COURANT ATARAXIS B;;;;;;;
+PCOP;451445;X;451445;;23.07.2018;JGUE;;BIL.;;;;;;;;;CC HR Path WD FR;COMPTE COURANT HR Path WD FR;COMPTE COURANT HR PATH WD;;;;;;;
+PCOP;451450;X;451450;;27.06.2013;PDUP;;BIL.;;;;;;;;;ICRH Consulting curr;ICRH Consulting current account;ICRH CONSULTING CURRENT A;;;;;;;
+PCOP;451460;X;451460;;27.06.2013;PDUP;;BIL.;;;;;;;;;ICRH Services curren;ICRH Services current account;ICRH SERVICES CURRENT ACC;;;;;;;
+PCOP;451470;X;451470;;27.06.2013;PDUP;;BIL.;;;;;;;;;ICRH Channel current;ICRH Channel current account;ICRH CHANNEL CURRENT ACCO;;;;;;;
+PCOP;451480;X;451480;;30.07.2019;JGUE;;BIL.;;;;;;;;;INTERCO TRANS HRP SG;Intercompany Transfered - HR Path Apac Singapore;INTERCOMPANY TRANSFERED -;;;;;;;
+PCOP;451490;X;451490;;30.07.2019;JGUE;;BIL.;;;;;;;;;INTERCO TRANS HRP AU;Intercompany Transfered - HR Path Australia;INTERCOMPANY TRANSFERED -;;;;;;;
+PCOP;451498;X;451498;;08.02.2018;JGUE;;BIL.;;;;;;;;;CPTE COURANT MEXICO;COMPTE COURANT HR PATH MEXICO;COMPTE COURANT HR PATH ME;;;;;;;
+PCOP;451499;X;451499;;03.11.2017;JGUE;;BIL.;;;;;;;;;CPTE COURANT SINGAPO;COMPTE COURANT HR PATH SINGAPOUR;COMPTE COURANT HR PATH SI;;;;;;;
+PCOP;451500;X;451500;;30.07.2019;JGUE;;BIL.;;;;;;;;;INTERCO TRANS DDG ID;Intercompany Transfered - PT DDG Indonesia;INTERCOMPANY TRANSFERED -;;;;;;;
+PCOP;451550;X;451550;;26.12.2019;JGUE;;BIL.;;;;;;;;;CC Exaserv Inc.;Current Account Exaserv Inc.;CURRENT ACCOUNT EXASERV I;;;;;;;
+PCOP;451570;X;451570;;11.03.2020;OMAL;;BIL.;;;;;;;;;Current Account InTa;Current Account InTalent;CURRENT ACCOUNT INTALENT;;;;;;;
+PCOP;451580;X;451580;;01.02.2021;JGUE;;BIL.;;;;;;;;;Interco Gaius HR CH;Intercompany Transfer - Gaius HR Switzerland;INTERCOMPANY TRANSFER - G;;;;;;;
+PCOP;451581;X;451581;;19.09.2024;JGUE;;BIL.;;;;;;;;;CC Gaius HR Holding;Intercompany Transfer - Gaius HR Holding;INTERCOMPANY TRANSFER - G;;;;;;;
+PCOP;451585;X;451585;;25.10.2021;OMAL;;BIL.;;;;;;;;;Interco Gaius HR UK;Intercompany Transfer - Gaius HR UK;INTERCOMPANY TRANSFER - G;;;;;;;
+PCOP;451600;X;451600;;03.01.2011;PDUP;;BIL.;;;;;;;;;ICRHNet current acco;ICRHNet current account;ICRHNET CURRENT ACCOUNT;;;;;;;
+PCOP;451601;X;451601;;27.06.2013;PDUP;;BIL.;;;;;;;;;CPTE CT RHNET BL1;COMPTE COURANT RHNET BLOQUE 1;COMPTE COURANT RHNET BLOQ;;;;;;;
+PCOP;451610;X;451610;;11.09.2013;PDUP;;BIL.;;;;;;;;;CPTE CT HRPATH NC;COMPTE COURANT HRPATH NC Nouvelle Caledo;COMPTE COURANT HRPATH NC;;;;;;;
+PCOP;451620;X;451620;;03.06.2021;JGUE;;BIL.;;;;;;;;;CC HR PATH AND CO#2;CC HR PATH AND CO#2;CC HR PATH AND CO#2;;;;;;;
+PCOP;451666;X;451666;;07.12.2021;JGUE;;BIL.;;;;;;;;;CC HR Path Colombia;Current account HR Path Colombia;CURRENT ACCOUNT HR PATH C;;;;;;;
+PCOP;451670;X;451670;;06.12.2021;JGUE;;BIL.;;;;;;;;;CC Plus HR Ltd;Current Account Plus HR Ltd;CURRENT ACCOUNT PLUS HR L;;;;;;;
+PCOP;451700;X;451700;;13.09.2011;PDUP;;BIL.;;;;;;;;;HR Path Canada curre;HR Path Canada current account;HR PATH CANADA CURRENT AC;;;;;;;
+PCOP;451710;X;451710;;27.10.2011;PDUP;;BIL.;;;;;;;;;CPTE COURANT belgiqu;COMPTE COURANT HRPATH BELGIQUE;COMPTE COURANT HRPATH BEL;;;;;;;
+PCOP;451720;X;451720;;06.01.2012;PDUP;;BIL.;;;;;;;;;Gilbert Consultant c;Gilbert Consultant current account;GILBERT CONSULTANT CURREN;;;;;;;
+PCOP;451730;X;451730;;06.01.2012;PDUP;;BIL.;;;;;;;;;CPTE COURANT GPM;COMPTE COURANT GPM;COMPTE COURANT GPM;;;;;;;
+PCOP;451740;X;451740;;06.01.2012;PDUP;;BIL.;;;;;;;;;CPTE COURANT GSM;COMPTE COURANT GSM;COMPTE COURANT GSM;;;;;;;
+PCOP;451741;X;451741;;05.05.2022;JGUE;;BIL.;;;;;;;;;CC HR PATH AIR;CC HR PATH AIR;CC HR PATH AIR;;;;;;;
+PCOP;451742;X;451742;;05.05.2022;JGUE;;BIL.;;;;;;;;;CC HR PATH AIR BLOQ;CC HR PATH AIR BLOQUE (Art l'article 39-1-3 CGI);CC HR PATH AIR BLOQUE (AR;;;;;;;
+PCOP;451750;X;451750;;06.01.2012;PDUP;;BIL.;;;;;;;;;CPTE COURANT BEE;COMPTE COURANT BEE;COMPTE COURANT BEE;;;;;;;
+PCOP;451760;X;451760;;05.07.2012;PDUP;;BIL.;;;;;;;;;CPTE CRT WELLINGTON;COMPTE COURANT WELLINGTON;COMPTE COURANT WELLINGTON;;;;;;;
+PCOP;451761;X;451761;;01.02.2023;OMAL;;BIL.;;;;;;;;;CPTE COURANT KORELO;COMPTE COURANT KORELO;COMPTE COURANT KORELO;;;;;;;
+PCOP;451770;X;451770;;05.07.2012;PDUP;;BIL.;;;;;;;;;CPTE COURANT DUBAI;COMPTE COURANT HR PATH DUBAI;COMPTE COURANT HR PATH DU;;;;;;;
+PCOP;451777;X;451777;;01.02.2023;OMAL;;BIL.;;;;;;;;;CPTE COURANT FGI;COMPTE COURANT FGI Fischer Group International;COMPTE COURANT FGI FISCHE;;;;;;;
+PCOP;451778;X;451778;;01.02.2023;OMAL;;BIL.;;;;;;;;;CPTE COURANT DIGIT;COMPTE COURANT Digital Solutions GmbH;COMPTE COURANT DIGITAL SO;;;;;;;
+PCOP;451780;X;451780;;14.02.2013;PDUP;;BIL.;;;;;;;;;Current Account HRP;Current Account HR Path Americas;CURRENT ACCOUNT HR PATH A;;;;;;;
+PCOP;451790;X;451790;;24.04.2013;PDUP;;BIL.;;;;;;;;;CPTE CT HRPATH SUISS;COMPTE COURANT HRPATH SUISSE;COMPTE COURANT HRPATH SUI;;;;;;;
+PCOP;451860;X;451860;;18.01.2011;PDUP;;BIL.;;;;;;;;;Accrued interest on;Accrued interest on current account (expenses);ACCRUED INTEREST ON CURRE;;;;;;;
+PCOP;451870;X;451870;;18.01.2011;PDUP;;BIL.;;;;;;;;;Accrued interest on;Accrued interest on current account (income);ACCRUED INTEREST ON CURRE;;;;;;;
+PCOP;451989;X;451989;;24.07.2024;JGUE;;BIL.;;;;;;;;;CPTE CRT BLOQU BIDCO;COMPTE COURANT BLOQUE BIDCO HR PATH;COMPTE COURANT BLOQUE BID;;;;;;;
+PCOP;455100;X;455100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Partners' current ac;Partners' current accounts: principal;PARTNERS' CURRENT ACCOUNT;;;;;;;
+PCOP;455800;X;455800;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Partners' current ac;Partners' current accounts: accrued interest;PARTNERS' CURRENT ACCOUNT;;;;;;;
+PCOP;456110;X;456110;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Partners' contributi;Partners' contributions in kind;PARTNERS' CONTRIBUTIONS I;;;;;;;
+PCOP;456150;X;456150;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Partners' cash contr;Partners' cash contributions;PARTNERS' CASH CONTRIBUTI;;;;;;;
+PCOP;456300;X;456300;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Payments received fo;Payments received for capital increase;PAYMENTS RECEIVED FOR CAP;;;;;;;
+PCOP;456400;X;456400;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Advance payments by;Advance payments by partners;ADVANCE PAYMENTS BY PARTN;;;;;;;
+PCOP;457000;X;457000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Dividends payable to;Dividends payable to partners;DIVIDENDS PAYABLE TO PART;;;;;;;
+PCOP;462000;X;462000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Receivables from ass;Receivables from asset disposals;RECEIVABLES FROM ASSET DI;;;;;;;
+PCOP;464000;X;464000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Liabilities for acqu;Liabilities for acquisition of marketable securiti;LIABILITIES FOR ACQUISITI;;;;;;;
+PCOP;465000;X;465000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Receivables from sal;Receivables from sale of marketable securities;RECEIVABLES FROM SALE OF;;;;;;;
+PCOP;467000;X;467000;;25.03.2007;CCOCUELLE;;RECO;;;;;;;;;Expense notes;Expense notes;EXPENSE NOTES;;;;;;;
+PCOP;467100;X;467100;;04.01.2021;JGUE;;BIL.;;;;;;;;;FACTOR;FACTOR;FACTOR;;;;;;;
+PCOP;467300;X;467300;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Other debtors;Other debtors;OTHER DEBTORS;;;;;;;
+PCOP;467400;X;467400;;04.01.2011;PDUP;;BIL.;;;;;;;;;Liabilities for acqu;Liabilities for acquisition of equity shares;LIABILITIES FOR ACQUISITI;;;;;;;
+PCOP;468600;X;468600;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Other charges payabl;Other charges payable;OTHER CHARGES PAYABLE;;;;;;;
+PCOP;468700;X;468700;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Other receivables;Other receivables;OTHER RECEIVABLES;;;;;;;
+PCOP;471000;X;471000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Suspense account - A;Suspense account - A;SUSPENSE ACCOUNT - A;;;;;;;
+PCOP;472000;X;472000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Suspense account - B;Suspense account - B;SUSPENSE ACCOUNT - B;;;;;;;
+PCOP;486000;X;486000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Prepaid expenses;Prepaid expenses;PREPAID EXPENSES;;;;;;;
+PCOP;487000;X;487000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Deferred income;Deferred income;DEFERRED INCOME;;;;;;;
+PCOP;488600;X;488600;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Subscription account;Subscription accounts - charges;SUBSCRIPTION ACCOUNTS - C;;;;;;;
+PCOP;488700;X;488700;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Subscription account;Subscription accounts - income;SUBSCRIPTION ACCOUNTS - I;;;;;;;
+PCOP;491000;X;491000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for deprec;Provision for depreciation of customer accounts;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;495100;X;495100;;09.12.2013;PDUP;;BIL.;;;;;;;;;PROV. POUR DEPREC.-;PROV. POUR DEPREC.- COMPTES COURANTS GRO;PROV. POUR DEPREC.- COMPT;;;;;;;
+PCOP;495500;X;495500;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for deprec;Provision for depreciation of partners' current ac;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;496200;X;496200;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for deprec;Provision for depreciation of receivables on asset;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;496500;X;496500;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for deprec;Provision for depreciation of receivables from mar;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;496700;X;496700;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Provision for deprec;Provision for depreciation of other debtor account;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;503000;X;503000;;19.06.2008;PLE;;BIL.;;;;;;;;;Investments;Investments;INVESTMENTS;;;;;;;
+PCOP;503100;X;503100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;HSBC shares;HSBC shares;HSBC SHARES;;;;;;;
+PCOP;503200;X;503200;;24.11.2008;JCO;;BIL.;;;;;;;;;SG shares;SG shares;SG SHARES;;;;;;;
+PCOP;503500;X;503500;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Shares - unlisted se;Shares - unlisted securities;SHARES - UNLISTED SECURIT;;;;;;;
+PCOP;506100;X;506100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Bonds - listed secur;Bonds - listed securities;BONDS - LISTED SECURITIES;;;;;;;
+PCOP;506500;X;506500;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Bonds - unlisted sec;Bonds - unlisted securities;BONDS - UNLISTED SECURITI;;;;;;;
+PCOP;507000;X;507000;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Treasury and cash bo;Treasury and cash bonds - short term;TREASURY AND CASH BONDS -;;;;;;;
+PCOP;508100;X;508100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Other securities;Other securities;OTHER SECURITIES;;;;;;;
+PCOP;508800;X;508800;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Accrued interest on;Accrued interest on bonds, cash bonds, and similar;ACCRUED INTEREST ON BONDS;;;;;;;
+PCOP;511100;X;511100;;25.03.2007;CCOCUELLE;;BIL.;;;;;;;;;Coupons due for coll;Coupons due for collection;COUPONS DUE FOR COLLECTIO;;;;;;;
+PCOP;511200;X;511200;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Received checks;Received checks;RECEIVED CHECKS;;;;;;;
+PCOP;511201;X;511201;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG received checks;SG received checks;SG RECEIVED CHECKS;;;;;;;
+PCOP;511202;X;511202;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC received checks;HSBC received checks;HSBC RECEIVED CHECKS;;;;;;;
+PCOP;511203;X;511203;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC received checks;BIC received checks;BIC RECEIVED CHECKS;;;;;;;
+PCOP;511300;X;511300;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Notes for collection;Notes for collection;NOTES FOR COLLECTION;;;;;;;
+PCOP;511301;X;511301;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG notes for collect;SG notes for collection;SG NOTES FOR COLLECTION;;;;;;;
+PCOP;511302;X;511302;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC notes for colle;HSBC notes for collection;HSBC NOTES FOR COLLECTION;;;;;;;
+PCOP;511303;X;511303;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC notes for collec;BIC notes for collection;BIC NOTES FOR COLLECTION;;;;;;;
+PCOP;511304;X;511304;;25.06.2009;JCO;;SAKO;;;;;;;;;BNP notes for collec;BNP notes for collection;BNP NOTES FOR COLLECTION;;;;;;;
+PCOP;511400;X;511400;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Discounted notes;Discounted notes;DISCOUNTED NOTES;;;;;;;
+PCOP;511401;X;511401;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG discounted notes;SG discounted notes;SG DISCOUNTED NOTES;;;;;;;
+PCOP;511402;X;511402;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC discounted note;HSBC discounted notes;HSBC DISCOUNTED NOTES;;;;;;;
+PCOP;511403;X;511403;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC discounted notes;BIC discounted notes;BIC DISCOUNTED NOTES;;;;;;;
+PCOP;511404;X;511404;;25.06.2009;JCO;;SAKO;;;;;;;;;BNP discounted notes;BNP discounted notes;BNP DISCOUNTED NOTES;;;;;;;
+PCOP;511500;X;511500;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Domestic transfers r;Domestic transfers received;DOMESTIC TRANSFERS RECEIV;;;;;;;
+PCOP;511501;X;511501;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG domestic transfer;SG domestic transfers received;SG DOMESTIC TRANSFERS REC;;;;;;;
+PCOP;511502;X;511502;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC domestic transf;HSBC domestic transfers received;HSBC DOMESTIC TRANSFERS R;;;;;;;
+PCOP;511503;X;511503;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC domestic transfe;BIC domestic transfers received;BIC DOMESTIC TRANSFERS RE;;;;;;;
+PCOP;511510;X;511510;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Foreign transfers re;Foreign transfers received;FOREIGN TRANSFERS RECEIVE;;;;;;;
+PCOP;511511;X;511511;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG foreign transfers;SG foreign transfers received;SG FOREIGN TRANSFERS RECE;;;;;;;
+PCOP;511512;X;511512;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC foreign transfe;HSBC foreign transfers received;HSBC FOREIGN TRANSFERS RE;;;;;;;
+PCOP;511513;X;511513;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC foreign transfer;BIC foreign transfers received;BIC FOREIGN TRANSFERS REC;;;;;;;
+PCOP;511600;X;511600;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Issued checks;Issued checks;ISSUED CHECKS;;;;;;;
+PCOP;511601;X;511601;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG issued checks;SG issued checks;SG ISSUED CHECKS;;;;;;;
+PCOP;511602;X;511602;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC issued checks;HSBC issued checks;HSBC ISSUED CHECKS;;;;;;;
+PCOP;511603;X;511603;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC issued checks;BIC issued checks;BIC ISSUED CHECKS;;;;;;;
+PCOP;511700;X;511700;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Transfers to be paid;Transfers to be paid (notified);TRANSFERS TO BE PAID (NOT;;;;;;;
+PCOP;511701;X;511701;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG transfers (notifi;SG transfers (notified);SG TRANSFERS (NOTIFIED);;;;;;;
+PCOP;511702;X;511702;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC transfers (noti;HSBC transfers (notified);HSBC TRANSFERS (NOTIFIED);;;;;;;
+PCOP;511703;X;511703;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC transfers (notif;BIC transfers (notified);BIC TRANSFERS (NOTIFIED);;;;;;;
+PCOP;511710;X;511710;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Transfers to be paid;Transfers to be paid (not notified);TRANSFERS TO BE PAID (NOT;;;;;;;
+PCOP;511711;X;511711;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG transfers (not no;SG transfers (not notified);SG TRANSFERS (NOT NOTIFIE;;;;;;;
+PCOP;511712;X;511712;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC transfers (not;HSBC transfers (not notified);HSBC TRANSFERS (NOT NOTIF;;;;;;;
+PCOP;511713;X;511713;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC transfers (not n;BIC transfers (not notified);BIC TRANSFERS (NOT NOTIFI;;;;;;;
+PCOP;511800;X;511800;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Bank reconciliation;Bank reconciliation;BANK RECONCILIATION;;;;;;;
+PCOP;511801;X;511801;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG domestic transfer;SG domestic transfers issued;SG DOMESTIC TRANSFERS ISS;;;;;;;
+PCOP;511802;X;511802;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC domestic transf;HSBC domestic transfers issued;HSBC DOMESTIC TRANSFERS I;;;;;;;
+PCOP;511803;X;511803;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Issued debit;Issued debit;ISSUED DEBIT;;;;;;;
+PCOP;511810;X;511810;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Foreign transfers is;Foreign transfers issued;FOREIGN TRANSFERS ISSUED;;;;;;;
+PCOP;511811;X;511811;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG foreign transfers;SG foreign transfers issued;SG FOREIGN TRANSFERS ISSU;;;;;;;
+PCOP;511812;X;511812;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC foreign transfe;HSBC foreign transfers issued;HSBC FOREIGN TRANSFERS IS;;;;;;;
+PCOP;511813;X;511813;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC foreign transfer;BIC foreign transfer issued;BIC FOREIGN TRANSFER ISSU;;;;;;;
+PCOP;511900;X;511900;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Withdrawals;Withdrawals;WITHDRAWALS;;;;;;;
+PCOP;511901;X;511901;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;SG withdrawals issue;SG withdrawals issued;SG WITHDRAWALS ISSUED;;;;;;;
+PCOP;511902;X;511902;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;HSBC withdrawals iss;HSBC withdrawals issued;HSBC WITHDRAWALS ISSUED;;;;;;;
+PCOP;511903;X;511903;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;BIC withdrawals issu;BIC withdrawals issued;BIC WITHDRAWALS ISSUED;;;;;;;
+PCOP;512100;X;512100;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Credit Agricole;Credit Agricole;CREDIT AGRICOLE;;;;;;;
+PCOP;512101;X;512101;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Société Générale;Société Générale;SOCIÉTÉ GÉNÉRALE;;;;;;;
+PCOP;512102;X;512102;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;UBS Euro current acc;UBS Euro current account;UBS EURO CURRENT ACCOUNT;;;;;;;
+PCOP;512103;X;512103;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Savings Bank;Savings Bank;SAVINGS BANK;;;;;;;
+PCOP;512104;X;512104;;25.06.2009;JCO;;SAKO;;;;;;;;;BNP Euro current acc;BNP Euro current account;BNP EURO CURRENT ACCOUNT;;;;;;;
+PCOP;512105;X;512105;;12.01.2012;PDUP;;FIN.;;;;;;;;;SG INDIVIS;SOCIETE GENERALE INDIVIS;SOCIETE GENERALE INDIVIS;;;;;;;
+PCOP;512107;X;512107;;03.01.2013;PDUP;;SAKO;;;;;;;;;CIC;CIC;CIC;;;;;;;
+PCOP;512110;X;512110;;01.06.2015;PDUP;;FIN.;;;;;;;;;SG COMPTE USD;SG FR76 3000 3016 7800 0200 7744 508 USD;SG FR76 3000 3016 7800 02;;;;;;;
+PCOP;512152;X;512152;;02.05.2019;JGUE;;FIN.;;;;;;;;;SG COMPTE SGD;SG Compte SGD FR76 3000 3016 7800 0200 7;SG COMPTE SGD FR76 3000 3;;;;;;;
+PCOP;512176;X;512176;;18.11.2020;JGUE;;SAKO;;;;;;;;;S.G Compte CHF;SG FR76 3000 3016 7800 0200 9747 655 CHF;SG FR76 3000 3016 7800 02;;;;;;;
+PCOP;512177;X;512177;;19.01.2021;OMAL;;SAKO;;;;;;;;;CREDIT AGRICOLE FACT;CREDIT AGRICOLE FACTOR;CREDIT AGRICOLE FACTOR;;;;;;;
+PCOP;512207;X;512207;;13.10.2021;JGUE;;SAKO;;;;;;;;;LCL;LCL Bank Account FR5430002056690000230814T85;LCL BANK ACCOUNT FR543000;;;;;;;
+PCOP;512210;X;512210;;06.12.2021;JGUE;;SAKO;;;;;;;;;S.G Compte GBP;SG FR76 3000 3016 7800 0201 1605 205 GBP;SG FR76 3000 3016 7800 02;;;;;;;
+PCOP;512234;X;512234;;01.06.2023;JGUE;;SAKO;;;;;;;;;CREDIT AGRICOLE FACT;CREDIT AGRICOLE FACTOR #2;CREDIT AGRICOLE FACTOR #2;;;;;;;
+PCOP;512249;X;512249;;04.04.2024;JGUE;;SAKO;;;;;;;;;SG Compte CAD;SG CAD FR76 3000 3016 7800 0200 3245 745;SG CAD FR76 3000 3016 780;;;;;;;
+PCOP;518600;X;518600;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Accrued interest pay;Accrued interest payable;ACCRUED INTEREST PAYABLE;;;;;;;
+PCOP;518700;X;518700;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Accrued interest rec;Accrued interest receivable;ACCRUED INTEREST RECEIVAB;;;;;;;
+PCOP;519800;X;519800;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Accrued interest on;Accrued interest on current bank loans;ACCRUED INTEREST ON CURRE;;;;;;;
+PCOP;531100;X;531100;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Headquarters cash -;Headquarters cash - in euros;HEADQUARTERS CASH - IN EU;;;;;;;
+PCOP;580000;X;580000;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Internal transfers;Internal transfers;INTERNAL TRANSFERS;;;;;;;
+PCOP;580001;X;580001;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Internal transfers S;Internal transfers SG EUR;INTERNAL TRANSFERS SG EUR;;;;;;;
+PCOP;580002;X;580002;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Internal transfers H;Internal transfers HSBC EUR;INTERNAL TRANSFERS HSBC E;;;;;;;
+PCOP;580003;X;580003;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Internal transfers B;Internal transfers BIC EUR;INTERNAL TRANSFERS BIC EU;;;;;;;
+PCOP;590800;X;590800;;25.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Provision for deprec;Provision for depreciation - other securities and;PROVISION FOR DEPRECIATIO;;;;;;;
+PCOP;603704;;603704;;25.03.2007;CCOCUELLE;X;MAT.;;;;;;;;;Merchandise revaluat;Merchandise revaluation - UMB;MERCHANDISE REVALUATION -;Profit & Loss;EBIT;EBITDA;;;;
+PCOP;604000;;604000;;25.03.2007;CCOCUELLE;X;MAT.;;;;;;;;;Purchase of studies;Purchase of studies and services;PURCHASE OF STUDIES AND S;;;;;;;
+PCOP;604005;;604005;;11.05.2011;PDUP;X;ERG.;;;;X;X;X;;;ACHATS MARGE IC;ACHATS PRESTATION EN MARGE INTERCOMPAGNI;ACHATS PRESTATION EN MARG;;;;;;;
+PCOP;604100;;604100;;16.07.2008;JCO;X;ERG.;;;;;;;;;Service purchases;Service purchases;SERVICE PURCHASES;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Contractors
+PCOP;604105;;604105;;06.07.2012;PDUP;X;ERG.;;;;;;;;;Intercompany service;Intercompany service purchases;INTERCOMPANY SERVICE PURC;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Contractors
+PCOP;604120;;604120;;23.01.2013;PDUP;X;ERG.;;;;;;;;;Publisher license ma;Publisher license maintenance;PUBLISHER LICENSE MAINTEN;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;License
+PCOP;604125;;604125;;22.05.2015;PDUP;X;ERG.;;;;;;;;;LIC. MAINT INTERCO;LICENCE MAINTENANCE EDITEUR INTERCO;LICENCE MAINTENANCE EDITE;;;;;;;
+PCOP;604130;;604130;;23.01.2013;PDUP;X;ERG.;;;;;;;;;Subcontracting - ser;Subcontracting - servers;SUBCONTRACTING - SERVERS;;;;;;;
+PCOP;604140;;604140;;23.01.2013;PDUP;X;ERG.;;;;;;;;;Subcontracting - mis;Subcontracting - miscellaneous works;SUBCONTRACTING - MISCELLA;;;;;;;
+PCOP;606100;;606100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Non-stock purchases;Non-stock purchases - other suppliers;NON-STOCK PURCHASES - OTH;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606110;;606110;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Electricity purchase;Electricity purchases;ELECTRICITY PURCHASES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606120;;606120;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Gas purchases;Gas purchases;GAS PURCHASES;;;;;;;
+PCOP;606130;;606130;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Water purchases;Water purchases;WATER PURCHASES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606300;;606300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplies and small e;Supplies and small equipment;SUPPLIES AND SMALL EQUIPM;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606310;;606310;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;IT supplies;IT supplies;IT SUPPLIES;;;;;;;
+PCOP;606330;;606330;;07.11.2008;JCO;X;ERG.;;;;;;;;;Small IT equipment a;Small IT equipment and materials;SMALL IT EQUIPMENT AND MA;;;;;;;
+PCOP;606340;;606340;;09.07.2009;JCO;X;ERG.;;;;;;;;;Small office equipme;Small office equipment;SMALL OFFICE EQUIPMENT;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606350;;606350;;14.10.2008;JCO;X;ERG.;;;;;;;;;Small office furnitu;Small office furniture;SMALL OFFICE FURNITURE;;;;;;;
+PCOP;606400;;606400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Administrative suppl;Administrative supplies;ADMINISTRATIVE SUPPLIES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606500;;606500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Fuel supplies;Fuel supplies;FUEL SUPPLIES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;606800;;606800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other materials and;Other materials and supplies;OTHER MATERIALS AND SUPPL;;;;;;;
+PCOP;609200;;609200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts obtained o;Discounts obtained on purchases - other stock item;DISCOUNTS OBTAINED ON PUR;;;;;;;
+PCOP;609400;;609400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts obtained o;Discounts obtained on purchases - studies and serv;DISCOUNTS OBTAINED ON PUR;;;;;;;
+PCOP;609500;;609500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts obtained o;Discounts obtained on purchases - equipment and wo;DISCOUNTS OBTAINED ON PUR;;;;;;;
+PCOP;609600;;609600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts obtained o;Discounts obtained on purchases - non-stock items;DISCOUNTS OBTAINED ON PUR;;;;;;;
+PCOP;611000;;611000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Subcontracting - con;Subcontracting - consulting;SUBCONTRACTING - CONSULTI;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Cost of Sales;Partner Fees
+PCOP;611005;;611005;;11.05.2011;PDUP;X;ERG.;;;;;;;;;Purchases of recharg;Purchases of recharged intercompany services;PURCHASES OF RECHARGED IN;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Contractors ICO
+PCOP;611100;;611100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;IT subcontracting;IT subcontracting;IT SUBCONTRACTING;;;;;;;
+PCOP;611110;;611110;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Subcontracting - var;Subcontracting - various services;SUBCONTRACTING - VARIOUS;;;;;;;
+PCOP;612200;;612200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Furniture leasing;Furniture leasing;FURNITURE LEASING;;;;;;;
+PCOP;613200;;613200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Real estate rentals;Real estate rentals;REAL ESTATE RENTALS;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Rent Expenses
+PCOP;613205;;613205;;11.05.2016;PDUP;X;ERG.;;;;;;;;;LOC IMMOBILIER IC;LOCATIONS IMMOBILIERES INTERCOMPAGNIE;LOCATIONS IMMOBILIERES IN;;;;;;;
+PCOP;613300;;613300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Vehicle rentals;Vehicle rentals;VEHICLE RENTALS;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Rent Expenses
+PCOP;613400;;613400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Equipment rentals;Equipment rentals;EQUIPMENT RENTALS;;;;;;;
+PCOP;613410;X;613410;;01.06.2016;JGUE;;ERG.;;;;X;X;X;;;EX LOCATION COPIEURS;NE PLUS UTILISER;NE PLUS UTILISER;;;;;;;
+PCOP;613420;;613420;;28.06.2016;JGUE;X;ERG.;;;;;;;;;LOCATION COPIEURS;LOCATION COPIEURS;LOCATION COPIEURS;;;;;;;
+PCOP;613500;;613500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Furniture rentals;Furniture rentals;FURNITURE RENTALS;;;;;;;
+PCOP;613510;;613510;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;IT rentals - outsour;IT rentals - outsourcing;IT RENTALS - OUTSOURCING;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Rent Expenses
+PCOP;614000;;614000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Rental and co-owners;Rental and co-ownership charges;RENTAL AND CO-OWNERSHIP C;;;;;;;
+PCOP;615200;;615200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Maintenance of premi;Maintenance of premises;MAINTENANCE OF PREMISES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Real Estate;Care and Maintenance
+PCOP;615210;;615210;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Repairs of premises;Repairs of premises;REPAIRS OF PREMISES;;;;;;;
+PCOP;615250;;615250;;29.07.2008;JCO;X;ERG.;;;;;;;;;Website maintenance;Website maintenance;WEBSITE MAINTENANCE;;;;;;;
+PCOP;615500;;615500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Maintenance and repa;Maintenance and repairs - on movable property;MAINTENANCE AND REPAIRS -;;;;;;;
+PCOP;615510;;615510;;24.04.2007;IGE;X;ERG.;;;;;;;;;Vehicle maintenance;Vehicle maintenance;VEHICLE MAINTENANCE;;;;;;;
+PCOP;615550;;615550;;18.09.2008;JCO;X;ERG.;;;;;;;;;IT maintenance;IT maintenance;IT MAINTENANCE;;;;;;;
+PCOP;615600;;615600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Billable maintenance;Billable maintenance to clients;BILLABLE MAINTENANCE TO C;;;;;;;
+PCOP;615601;;615601;;29.01.2008;IGE;X;ERG.;;;;;;;;;SAP PSME maintenance;SAP PSME maintenance;SAP PSME MAINTENANCE;;;;;;;
+PCOP;615610;;615610;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;CBL PSME maintenance;CBL PSME maintenance;CBL PSME MAINTENANCE;;;;;;;
+PCOP;616100;;616100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Insurance premiums -;Insurance premiums - multi-risk/RC;INSURANCE PREMIUMS - MULT;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Insurance;Insurance Expense
+PCOP;616360;;616360;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Insurance premiums -;Insurance premiums - transport/purchases;INSURANCE PREMIUMS - TRAN;;;;;;;
+PCOP;616380;;616380;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Insurance premiums -;Insurance premiums - vehicles;INSURANCE PREMIUMS - VEHI;;;;;;;
+PCOP;616400;;616400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Insurance premiums -;Insurance premiums - operational risks;INSURANCE PREMIUMS - OPER;;;;;;;
+PCOP;616500;;616500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Insurance premiums -;Insurance premiums - customer insolvency;INSURANCE PREMIUMS - CUST;;;;;;;
+PCOP;617000;;617000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Studies and research;Studies and research;STUDIES AND RESEARCH;;;;;;;
+PCOP;618000;;618000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other external charg;Other external charges;OTHER EXTERNAL CHARGES;Profit & Loss;EBIT;Others;Others;Others;Others;EBIT
+PCOP;618010;;618010;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Colloquia and semina;Colloquia and seminar expenses;COLLOQUIA AND SEMINAR EXP;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Events;Seminar, Convention and Trade Shows
+PCOP;618100;;618100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;General documentatio;General documentation;GENERAL DOCUMENTATION;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;618200;;618200;;29.07.2008;JCO;X;ERG.;;;;;;;;;Recruitment expenses;Recruitment expenses;RECRUITMENT EXPENSES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;618300;;618300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Technical documentat;Technical documentation;TECHNICAL DOCUMENTATION;;;;;;;
+PCOP;618500;;618500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Expenses for colloqu;Expenses for colloquia, seminars, conferences;EXPENSES FOR COLLOQUIA, S;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Events;Seminar, Convention and Trade Shows
+PCOP;618600;;618600;;24.02.2010;JCO;X;ERG.;;;;;;;;;Training expenses;Training expenses;TRAINING EXPENSES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Events;Seminar, Convention and Trade Shows
+PCOP;619000;;619000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts obtained o;Discounts obtained on external services;DISCOUNTS OBTAINED ON EXT;;;;;;;
+PCOP;621100;;621100;;23.11.2011;PDUP;X;ERG.;;;;;;;;;Temporary workers;Temporary workers;TEMPORARY WORKERS;;;;;;;
+PCOP;622100;;622100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Brokerage commission;Brokerage commissions;BROKERAGE COMMISSIONS;;;;;;;
+PCOP;622200;;622200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Sales commissions an;Sales commissions and brokerage;SALES COMMISSIONS AND BRO;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Contractors Comission
+PCOP;622300;;622300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Rebates;Rebates;REBATES;;;;;;;
+PCOP;622500;;622500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Factoring commission;Factoring commissions;FACTORING COMMISSIONS;;;;;;;
+PCOP;622600;;622600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Auditor/accountant f;Auditor/accountant fees;AUDITOR/ACCOUNTANT FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622605;;622605;;22.06.2007;IGE;X;ERG.;;;;;;;;;Various fees;Various fees;VARIOUS FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622610;;622610;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Personnel fees;Personnel fees;PERSONNEL FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622620;;622620;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Legal fees;Legal fees;LEGAL FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622630;;622630;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Courier fees;Courier fees;COURIER FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622640;;622640;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Alblan fees;Alblan fees;ALBLAN FEES;;;;;;;
+PCOP;622645;;622645;;05.01.2009;JCO;X;ERG.;;;;;;;;;Service fees;Service fees;SERVICE FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622650;;622650;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Commercial fees;Commercial fees;COMMERCIAL FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Services fee;Fees (Accounting, Legal, ect ...)
+PCOP;622660;;622660;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Magnisol fees;Magnisol fees;MAGNISOL FEES;;;;;;;
+PCOP;622670;;622670;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Advertising fees;Advertising fees;ADVERTISING FEES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Advertising and Promotion
+PCOP;622680;;622680;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Indemnities and reim;Indemnities and reimbursements;INDEMNITIES AND REIMBURSE;;;;;;;
+PCOP;622690;;622690;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Benefits in kind;Benefits in kind;BENEFITS IN KIND;;;;;;;
+PCOP;622700;;622700;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Act and litigation f;Act and litigation fees;ACT AND LITIGATION FEES;;;;;;;
+PCOP;622800;;622800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Miscellaneous;Miscellaneous;MISCELLANEOUS;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Others;Other Fees
+PCOP;623100;;623100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Announcements and ad;Announcements and advertisements;ANNOUNCEMENTS AND ADVERTI;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Advertising and Promotion
+PCOP;623200;;623200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Advertising;Advertising;ADVERTISING;;;;;;;
+PCOP;623300;;623300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Fairs and exhibition;Fairs and exhibitions;FAIRS AND EXHIBITIONS;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Events;Seminar, Convention and Trade Shows
+PCOP;623400;;623400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Gifts to customers;Gifts to customers;GIFTS TO CUSTOMERS;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Advertising and Promotion
+PCOP;623500;;623500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Premiums;Premiums;PREMIUMS;;;;;;;
+PCOP;623600;;623600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Catalogs and printed;Catalogs and printed materials;CATALOGS AND PRINTED MATE;;;;;;;
+PCOP;623700;;623700;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Publications;Publications;PUBLICATIONS;;;;;;;
+PCOP;623800;;623800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Miscellaneous (tips,;Miscellaneous (tips, common donations);MISCELLANEOUS (TIPS, COMM;;;;;;;
+PCOP;624100;;624100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Transportation on pu;Transportation on purchases;TRANSPORTATION ON PURCHAS;;;;;;;
+PCOP;624500;;624500;;06.05.2009;JCO;X;ERG.;;;;;;;;;Miscellaneous transp;Miscellaneous transportation;MISCELLANEOUS TRANSPORTAT;;;;;;;
+PCOP;624700;;624700;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Collective personnel;Collective personnel transport;COLLECTIVE PERSONNEL TRAN;;;;;;;
+PCOP;625100;;625100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Travel and accommoda;Travel and accommodation;TRAVEL AND ACCOMMODATION;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Travel;Expenses (Travel, Lunch …)
+PCOP;625105;;625105;;17.10.2014;PDUP;X;ERG.;;;;;;;;;Intercompany travel;Intercompany travel and accommodation;INTERCOMPANY TRAVEL AND A;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Travel;ICO Expenses (Travel, Lunch …)
+PCOP;625300;;625300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Mileage allowance;Mileage allowance;MILEAGE ALLOWANCE;;;;;;;
+PCOP;625500;;625500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Moving expenses;Moving expenses;MOVING EXPENSES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Rent Expenses
+PCOP;625600;;625600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Missions;Missions;MISSIONS;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Travel;Expenses (Travel, Lunch …)
+PCOP;625700;;625700;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Receptions;Receptions;RECEPTIONS;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Travel;Expenses (Travel, Lunch …)
+PCOP;626000;;626000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Postal charges;Postal charges;POSTAL CHARGES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Postage and Telecommunication
+PCOP;626100;;626100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Fixed telecommunicat;Fixed telecommunication charges;FIXED TELECOMMUNICATION C;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Postage and Telecommunication
+PCOP;626200;;626200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Mobile telecommunica;Mobile telecommunication charges;MOBILE TELECOMMUNICATION;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Postage and Telecommunication
+PCOP;626300;;626300;;01.06.2016;JGUE;X;ERG.;;;;;;;;;INTERNET;INTERNET COSTS;INTERNET COSTS;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;Consumable purchases
+PCOP;627000;;627000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Commissions;Commissions;COMMISSIONS;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Contractors Comission
+PCOP;627600;;627600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Safe rental;Safe rental;SAFE RENTAL;;;;;;;
+PCOP;627800;;627800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other fees and commi;Other fees and commissions / service provision;OTHER FEES AND COMMISSION;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Bank Fees;Bank Fees
+PCOP;628005;;628005;;11.05.2011;PDUP;X;ERG.;;;;;;;;;Recharged general ex;Recharged general expenses - intercompany;RECHARGED GENERAL EXPENSE;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Fees;Management Fees
+PCOP;628100;;628100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Various competitions;Various competitions (subscriptions);VARIOUS COMPETITIONS (SUB;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Indirect Cost;License
+PCOP;628400;;628400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Personnel recruitmen;Personnel recruitment expenses;PERSONNEL RECRUITMENT EXP;;;;;;;
+PCOP;629000;;629000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts obtained /;Discounts obtained / other external services;DISCOUNTS OBTAINED / OTHE;;;;;;;
+PCOP;631200;;631200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Apprenticeship tax;Apprenticeship tax;APPRENTICESHIP TAX;;;;;;;
+PCOP;631300;;631300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Employers' contribut;Employers' contribution to ongoing professional tr;EMPLOYERS' CONTRIBUTION T;;;;;;;
+PCOP;631800;;631800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other taxes and paym;Other taxes and payments on salaries (admin);OTHER TAXES AND PAYMENTS;;;;;;;
+PCOP;633100;;633100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Transport contributi;Transport contribution;TRANSPORT CONTRIBUTION;;;;;;;
+PCOP;633300;;633300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Employers' contribut;Employers' contribution to ongoing professional tr;EMPLOYERS' CONTRIBUTION T;;;;;;;
+PCOP;633400;;633400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Employers' contribut;Employers' contribution to construction effort;EMPLOYERS' CONTRIBUTION T;;;;;;;
+PCOP;633500;;633500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Voluntary payments g;Voluntary payments granting apprenticeship tax exe;VOLUNTARY PAYMENTS GRANTI;;;;;;;
+PCOP;633800;;633800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other taxes and paym;Other taxes and payments on salaries (other orgs);OTHER TAXES AND PAYMENTS;;;;;;;
+PCOP;635110;;635110;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Professional tax;Professional tax;PROFESSIONAL TAX;;;;;;;
+PCOP;635120;;635120;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Property tax;Property tax;PROPERTY TAX;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Tax;Taxes and Duties
+PCOP;635130;;635130;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other local taxes;Other local taxes;OTHER LOCAL TAXES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Tax;Taxes and Duties
+PCOP;635140;;635140;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Tax on company vehic;Tax on company vehicles;TAX ON COMPANY VEHICLES;;;;;;;
+PCOP;635200;;635200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Non-recoverable VAT;Non-recoverable VAT;NON-RECOVERABLE VAT;;;;;;;
+PCOP;635300;;635300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Indirect taxes;Indirect taxes;INDIRECT TAXES;;;;;;;
+PCOP;635400;;635400;;06.11.2008;JCO;X;ERG.;;;;;;;;;Registration fees an;Registration fees and stamps;REGISTRATION FEES AND STA;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Others;Other Fees
+PCOP;635800;;635800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other duties;Other duties;OTHER DUTIES;;;;;;;
+PCOP;637100;;637100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Corporate social sol;Corporate social solidarity contribution;CORPORATE SOCIAL SOLIDARI;;;;;;;
+PCOP;637800;;637800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Various taxes;Various taxes;VARIOUS TAXES;;;;;;;
+PCOP;641100;;641100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Salaries, wages, bas;Salaries, wages, base commissions;SALARIES, WAGES, BASE COM;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;641130;;641130;;06.11.2008;JCO;X;ERG.;;;;;;;;;Gross payroll (US);Gross payroll (US);GROSS PAYROLL (US);;;;;;;
+PCOP;641200;;641200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Paid leave;Paid leave;PAID LEAVE;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;641250;;641250;;26.09.2008;JCO;X;ERG.;;;;;;;;;Provisions for paid;Provisions for paid leave;PROVISIONS FOR PAID LEAVE;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;641270;;641270;;26.09.2008;JCO;X;ERG.;;;;;;;;;Provisions for RTT (;Provisions for RTT (working time reduction);PROVISIONS FOR RTT (WORKI;;;;;;;
+PCOP;641300;;641300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Bonuses and gratuiti;Bonuses and gratuities;BONUSES AND GRATUITIES;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;641301;;641301;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Bonuses and gratuiti;Bonuses and gratuities;BONUSES AND GRATUITIES;;;;;;;
+PCOP;641310;;641310;;19.06.2008;PLE;X;ERG.;;;;;;;;;Transactional indemn;Transactional indemnity;TRANSACTIONAL INDEMNITY;;;;;;;
+PCOP;641350;;641350;;11.12.2024;JGUE;X;ERG.;;;;;;;;;FR Prime Vacances;FR Prime Vacances 06/AAAA;FR PRIME VACANCES 06/AAAA;;;;;;;
+PCOP;641400;;641400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Indemnities and vari;Indemnities and various benefits;INDEMNITIES AND VARIOUS B;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;641500;;641500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Family allowance;Family allowance;FAMILY ALLOWANCE;;;;;;;
+PCOP;641600;;641600;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Sickness indemnity;Sickness indemnity;SICKNESS INDEMNITY;;;;;;;
+PCOP;641601;;641601;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Maternity indemnity;Maternity indemnity;MATERNITY INDEMNITY;;;;;;;
+PCOP;641602;;641602;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Work accident indemn;Work accident indemnity;WORK ACCIDENT INDEMNITY;;;;;;;
+PCOP;645000;;645000;;11.05.2007;IGE;X;ERG.;;;;;;;;;Social payroll charg;Social payroll charges;SOCIAL PAYROLL CHARGES;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;645100;;645100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Contributions to URS;Contributions to URSSAF;CONTRIBUTIONS TO URSSAF;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;645110;;645110;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;General Social Contr;General Social Contribution (CSG);GENERAL SOCIAL CONTRIBUTI;;;;;;;
+PCOP;645120;;645120;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Contribution for Deb;Contribution for Debt Repayment (CRDS);CONTRIBUTION FOR DEBT REP;;;;;;;
+PCOP;645150;;645150;;11.02.2009;JCO;X;ERG.;;;;;;;;;Social contributions;Social contributions on bonus provisions;SOCIAL CONTRIBUTIONS ON B;;;;;;;
+PCOP;645200;;645200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Contributions to mut;Contributions to mutual funds;CONTRIBUTIONS TO MUTUAL F;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;645250;;645250;;30.09.2008;JCO;X;ERG.;;;;;;;;;Social contributions;Social contributions on paid leave provisions;SOCIAL CONTRIBUTIONS ON P;;;;;;;Salaries, Benefits & Wages
+PCOP;645270;;645270;;30.09.2008;JCO;X;ERG.;;;;;;;;;Social contributions;Social contributions on RTT provisions;SOCIAL CONTRIBUTIONS ON R;;;;;;;Salaries, Benefits & Wages
+PCOP;645300;;645300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;UGRR contributions;UGRR contributions;UGRR CONTRIBUTIONS;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;645305;;645305;;24.04.2007;IGE;X;ERG.;;;;;;;;;UGRC contributions;UGRC contributions;UGRC CONTRIBUTIONS;;;;;;;Salaries, Benefits & Wages
+PCOP;645350;;645350;;11.12.2024;JGUE;X;ERG.;;;;;;;;;FR Ch Prime Vacances;FR Chg Prime Vacances 06/AAAA;FR CHG PRIME VACANCES 06/;;;;;;;Salaries, Benefits & Wages
+PCOP;645400;;645400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Contributions to une;Contributions to unemployment insurance (ASSEDIC);CONTRIBUTIONS TO UNEMPLOY;;;;;;;Salaries, Benefits & Wages
+PCOP;645800;;645800;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Mutual and provident;Mutual and provident contributions;MUTUAL AND PROVIDENT CONT;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;647000;;647000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other social charges;Other social charges;OTHER SOCIAL CHARGES;;;;;;;Salaries, Benefits & Wages
+PCOP;647100;;647100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other social charges;Other social charges - direct benefits;OTHER SOCIAL CHARGES - DI;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;647200;;647200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other social charges;Other social charges - payments to works councils;OTHER SOCIAL CHARGES - PA;;;;;;;
+PCOP;647300;;647300;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other social charges;Other social charges - payments to hygiene and saf;OTHER SOCIAL CHARGES - PA;;;;;;;
+PCOP;647400;;647400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other social charges;Other social charges - payments to other social wo;OTHER SOCIAL CHARGES - PA;;;;;;;
+PCOP;647500;;647500;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other social charges;Other social charges - occupational medicine and p;OTHER SOCIAL CHARGES - OC;;;;;;;
+PCOP;648000;;648000;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other personnel expe;Other personnel expenses;OTHER PERSONNEL EXPENSES;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;648100;;648100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Training expenses -;Training expenses - excluding training tax;TRAINING EXPENSES - EXCLU;;;;;;;
+PCOP;648200;;648200;;27.04.2007;CCOCUELLE;X;ERG.;;;;;;;;;Transportation expen;Transportation expenses;TRANSPORTATION EXPENSES;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;648201;;648201;;26.07.2007;IGE;X;ERG.;;;;;;;;;Paid transportation;Paid transportation expenses;PAID TRANSPORTATION EXPEN;;;;;;;
+PCOP;648300;;648300;;22.06.2007;IGE;X;ERG.;;;;;;;;;Transactional indemn;Transactional indemnity;TRANSACTIONAL INDEMNITY;;;;;;;
+PCOP;649000;;649000;;24.04.2013;PDUP;X;ERG.;;;;;;;;;Salaries - CICE;Salaries - CICE;SALARIES - CICE;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;651100;;651100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Royalties for conces;Royalties for concessions, patents, licenses, proc;ROYALTIES FOR CONCESSIONS;;;;;;;Salaries, Benefits & Wages
+PCOP;651200;;651200;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;CBL licenses;CBL licenses;CBL LICENSES;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;651210;;651210;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;HRPIC licenses;HRPIC licenses;HRPIC LICENSES;;;;;;;
+PCOP;651220;;651220;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;PSME licenses;PSME licenses;PSME LICENSES;;;;;;;
+PCOP;654100;;654100;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Losses on irrecovera;Losses on irrecoverable receivables - current year;LOSSES ON IRRECOVERABLE R;;;;;;;
+PCOP;654400;;654400;;25.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Losses on irrecovera;Losses on irrecoverable receivables - previous yea;LOSSES ON IRRECOVERABLE R;;;;;;;
+PCOP;658000;;658000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Miscellaneous manage;Miscellaneous management charges;MISCELLANEOUS MANAGEMENT;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Others;Other Fees
+PCOP;658100;;658100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Charges on by-produc;Charges on by-products;CHARGES ON BY-PRODUCTS;;;;;;;
+PCOP;661160;;661160;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Interest on loans an;Interest on loans and similar debts;INTEREST ON LOANS AND SIM;;;;;;;
+PCOP;661170;;661170;;27.10.2011;PDUP;X;ERG.;;;;;;;;;CH.INT CCA;CHARGES D'INT.DES COMPTES COURANTS D'ASS;CHARGES D'INT.DES COMPTES;;;;;;;
+PCOP;661200;;661200;;24.01.2011;PDUP;X;ERG.;;;;;;;;;Intercompany financi;Intercompany financial charges;INTERCOMPANY FINANCIAL CH;;;;;;;
+PCOP;661500;;661500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Interest on current;Interest on current accounts and credited deposits;INTEREST ON CURRENT ACCOU;;;;;;;
+PCOP;661600;;661600;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Bank interest and fi;Bank interest and financial operations (discount);BANK INTEREST AND FINANCI;;;;;;;
+PCOP;661700;;661700;;02.07.2007;IGE;X;ERG.;;;;;;;;;Bank interest and fi;Bank interest and financial operations with VAT;BANK INTEREST AND FINANCI;;;;;;;
+PCOP;661810;;661810;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Interest on other co;Interest on other commercial debts;INTEREST ON OTHER COMMERC;;;;;;;
+PCOP;664100;;664100;;01.07.2020;OMAL;X;ERG.;;;;;;;;;PERTES SUR CREANCES;PERTES SUR CREANCES LIEES A DES PARTICIPATIONS;PERTES SUR CREANCES LIEES;;;;;;;
+PCOP;665000;;665000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts granted;Discounts granted;DISCOUNTS GRANTED;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Discounts;Deductions
+PCOP;666000;;666000;;05.06.2009;JCO;X;ERG.;;;;;;;;;Foreign exchange los;Foreign exchange loss;FOREIGN EXCHANGE LOSS;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Financial Costs
+PCOP;667000;;667000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Net charges on dispo;Net charges on disposals of marketable securities;NET CHARGES ON DISPOSALS;;;;;;;
+PCOP;668000;;668000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other financial char;Other financial charges;OTHER FINANCIAL CHARGES;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Bank Fees;Bank Fees
+PCOP;671100;;671100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - penalties/contracts;EXCEPTIONAL CHARGES - PEN;;;;;;;
+PCOP;671200;;671200;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - fiscal fines and penalties;EXCEPTIONAL CHARGES - FIS;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Exceptionnal Costs
+PCOP;671300;;671300;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - donations and gifts;EXCEPTIONAL CHARGES - DON;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Exceptionnal Costs
+PCOP;671400;;671400;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - bad debts created during the;EXCEPTIONAL CHARGES - BAD;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Others;Bad Debt
+PCOP;671500;;671500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - grants awarded;EXCEPTIONAL CHARGES - GRA;;;;;;;
+PCOP;671700;;671700;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - tax recalls;EXCEPTIONAL CHARGES - TAX;;;;;;;
+PCOP;671800;;671800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - other charges;EXCEPTIONAL CHARGES - OTH;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Exceptionnal Costs
+PCOP;672000;;672000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charges;Exceptional charges - previous years;EXCEPTIONAL CHARGES - PRE;Profit & Loss;EBIT;Others;Others;Others;Others;EBIT
+PCOP;675000;;675000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Carrying value of di;Carrying value of disposed assets;CARRYING VALUE OF DISPOSE;;;;;;;
+PCOP;675100;;675100;;09.03.2015;PDUP;X;ERG.;;;;;;;;;VAL.COMPT.DES ELEM.D;VAL.COMPT.DES ELEM.D'ACTIF CEDES - IMMOB;VAL.COMPT.DES ELEM.D'ACTI;;;;;;;
+PCOP;675200;;675200;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Carrying value of di;Carrying value of disposed tangible assets;CARRYING VALUE OF DISPOSE;;;;;;;
+PCOP;675600;;675600;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Carrying value of di;Carrying value of disposed financial assets;CARRYING VALUE OF DISPOSE;;;;;;;
+PCOP;675800;;675800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Carrying value of di;Carrying value of disposed other assets;CARRYING VALUE OF DISPOSE;;;;;;;
+PCOP;678800;;678800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other exceptional ch;Other exceptional charges - miscellaneous;OTHER EXCEPTIONAL CHARGES;Profit & Loss;EBIT;Others;Others;Others;Others;EBIT
+PCOP;678870;;678870;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Inventory difference;Inventory difference on traded goods (GBB/INV);INVENTORY DIFFERENCE ON T;;;;;;;
+PCOP;681010;;681010;;20.06.2011;PDUP;X;ERG.;;;;;;;;;DOT. AMTS. FR.CONSTI;DOT.AUX AMTS. DES FRAIS DE CONSTITUTION;DOT.AUX AMTS. DES FRAIS D;;;;;;;
+PCOP;681120;;681120;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Amortization allowan;Amortization allowances for tangible assets;AMORTIZATION ALLOWANCES F;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBITDA;Amortization
+PCOP;681180;;681180;;26.06.2019;CENSIO;X;ERG.;;;;;;;;;Amortization allowan;Amortization allowances for tangible assets;AMORTIZATION ALLOWANCES F;;;;;;;
+PCOP;681200;;681200;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Amortization allowan;Amortization allowances for deferred operating cha;AMORTIZATION ALLOWANCES F;;;;;;;
+PCOP;681500;;681500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for opera;Provisions for operating risks and charges;PROVISIONS FOR OPERATING;;;;;;;
+PCOP;681501;;681501;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for opera;Provisions for operating risks and charges;PROVISIONS FOR OPERATING;;;;;;;
+PCOP;681610;;681610;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for impai;Provisions for impairment of intangible assets;PROVISIONS FOR IMPAIRMENT;;;;;;;
+PCOP;681620;;681620;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for impai;Provisions for impairment of tangible assets;PROVISIONS FOR IMPAIRMENT;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Amortization;Amortization
+PCOP;681740;;681740;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for impai;Provisions for impairment of receivables;PROVISIONS FOR IMPAIRMENT;Profit & Loss;EBIT;Others;Others;Others;Others;EBIT
+PCOP;686500;;686500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for finan;Provisions for financial risks and charges;PROVISIONS FOR FINANCIAL;;;;;;;
+PCOP;686620;;686620;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for impai;Provisions for impairment of financial assets;PROVISIONS FOR IMPAIRMENT;;;;;;;
+PCOP;686630;;686630;;09.12.2013;PDUP;X;ERG.;;;;;;;;;Group Loan Impairmen;Group Loan Impairment;GROUP LOAN IMPAIRMENT;;;;;;;
+PCOP;686800;;686800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other allocations -;Other allocations - financial charges;OTHER ALLOCATIONS - FINAN;;;;;;;
+PCOP;687250;;687250;;07.03.2011;PDUP;X;ERG.;;;;;;;;;Exceptional deprecia;Exceptional depreciation allowances;EXCEPTIONAL DEPRECIATION;;;;;;;
+PCOP;687300;;687300;;11.06.2009;JCO;X;ERG.;;;;;;;;;Provisions for TEC;Provisions for TEC;PROVISIONS FOR TEC;;;;;;;
+PCOP;687500;;687500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for excep;Provisions for exceptional risks and charges;PROVISIONS FOR EXCEPTIONA;;;;;;;
+PCOP;687600;;687600;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Provisions for excep;Provisions for exceptional impairments;PROVISIONS FOR EXCEPTIONA;;;;;;;
+PCOP;691000;;691000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Employee profit-shar;Employee profit-sharing;EMPLOYEE PROFIT-SHARING;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+PCOP;695100;;695100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Corporate income tax;Corporate income tax (due in National);CORPORATE INCOME TAX (DUE;Profit & Loss;EBIT;EBIT;EBIT;Tax;Tax;Income Tax
+PCOP;697000;;697000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Annual flat-rate cor;Annual flat-rate corporate tax;ANNUAL FLAT-RATE CORPORAT;;;;;;;
+PCOP;698100;;698100;;13.07.2012;PDUP;X;ERG.;;;;;;;;;INT.FISCALE CHARGES;INTEGRATION FISCALE CHARGES;INTEGRATION FISCALE CHARG;;;;;;;
+PCOP;698900;;698900;;13.07.2012;PDUP;X;ERG.;;;;;;;;;INT.FISCALE PRODUITS;INTEGRATION FISCALE PRODUITS;INTEGRATION FISCALE PRODU;;;;;;;
+PCOP;699600;;699600;;06.07.2009;JCO;X;ERG.;;;;;;;;;Apprenticeship tax c;Apprenticeship tax credit;APPRENTICESHIP TAX CREDIT;;;;;;;
+PCOP;699700;;699700;;21.11.2008;JCO;X;ERG.;;;;;;;;;Growth SME tax credi;Growth SME tax credit;GROWTH SME TAX CREDIT;;;;;;;
+PCOP;705000;;705000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Studies - (Domestic);Studies - (Domestic);STUDIES - (DOMESTIC);;;;;;;
+PCOP;705005;;705005;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Studies - Foreign;Studies - Foreign;STUDIES - FOREIGN;;;;;;;
+PCOP;706000;;706000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Services rendered;Services rendered;SERVICES RENDERED;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706005;;706005;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Foreign;SERVICES RENDERED - FOREI;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706015;;706015;;06.07.2012;PDUP;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Intercompany;SERVICES RENDERED - INTER;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706020;;706020;;29.06.2012;PDUP;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Adjustments CPT PCA;SERVICES RENDERED - ADJUS;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706030;;706030;;07.02.2013;PDUP;X;ERG.;;;;;;;;;Services rendered -;Services rendered - FAE;SERVICES RENDERED - FAE;;;;;;;
+PCOP;706100;;706100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Subcontracting costs (Domestic;SERVICES RENDERED - SUBCO;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706105;;706105;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Subcontracting costs (Foreign);SERVICES RENDERED - SUBCO;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706200;;706200;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Training;SERVICES RENDERED - TRAIN;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706205;;706205;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Training (Foreign);SERVICES RENDERED - TRAIN;;;;;;;
+PCOP;706300;;706300;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Payroll services - (;Payroll services - (Domestic);PAYROLL SERVICES - (DOMES;;;;;;;
+PCOP;706305;;706305;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Payroll services - F;Payroll services - Foreign;PAYROLL SERVICES - FOREIG;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;706400;;706400;;22.05.2007;IGE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Subcontracting (Domestic);SERVICES RENDERED - SUBCO;;;;;;;
+PCOP;706405;;706405;;22.05.2007;IGE;X;ERG.;;;;;;;;;Services rendered -;Services rendered - Subcontracting (Foreign);SERVICES RENDERED - SUBCO;;;;;;;
+PCOP;706900;;706900;;23.09.2008;JCO;X;ERG.;;;;;;;;;Services rendered -;Services rendered - (Domestic) non-subject to tax;SERVICES RENDERED - (DOME;;;;;;;
+PCOP;708000;;708000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplementary activi;Supplementary activities: Licenses - (Domestic);SUPPLEMENTARY ACTIVITIES:;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;708005;;708005;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplementary activi;Supplementary activities: Licenses - Foreign;SUPPLEMENTARY ACTIVITIES:;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;708100;;708100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplementary activi;Supplementary activities: Maintenance - (Domestic);SUPPLEMENTARY ACTIVITIES:;;;;;;;
+PCOP;708105;;708105;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplementary activi;Supplementary activities: Maintenance - Foreign;SUPPLEMENTARY ACTIVITIES:;;;;;;;
+PCOP;708200;;708200;;24.04.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplementary activi;Supplementary activities: Social information - (Do;SUPPLEMENTARY ACTIVITIES:;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;708205;;708205;;24.04.2007;CCOCUELLE;X;ERG.;;;;;;;;;Supplementary activi;Supplementary activities: Social information - For;SUPPLEMENTARY ACTIVITIES:;;;;;;;
+PCOP;708305;;708305;;11.05.2011;PDUP;X;ERG.;;;;;;;;;Intercompany service;Intercompany service provision;INTERCOMPANY SERVICE PROV;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;708315;;708315;;14.02.2013;PDUP;X;ERG.;;;;;;;;;Intercompany busines;Intercompany business services;INTERCOMPANY BUSINESS SER;;;;;;;
+PCOP;708500;;708500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reimbursed travel ex;Reimbursed travel expenses - (Domestic);REIMBURSED TRAVEL EXPENSE;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;708505;;708505;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reimbursed travel ex;Reimbursed travel expenses - Foreign;REIMBURSED TRAVEL EXPENSE;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;708600;;708600;;24.04.2007;CCOCUELLE;X;ERG.;;;;;;;;;Shipping expenses -;Shipping expenses - (Domestic);SHIPPING EXPENSES - (DOME;;;;;;;
+PCOP;708605;;708605;;24.04.2007;CCOCUELLE;X;ERG.;;;;;;;;;Shipping expenses -;Shipping expenses - Foreign;SHIPPING EXPENSES - FOREI;;;;;;;
+PCOP;708700;;708700;;18.02.2010;JCO;X;ERG.;;;;;;;;;Miscellaneous revenu;Miscellaneous revenue (Domestic);MISCELLANEOUS REVENUE (DO;;;;;;;
+PCOP;708705;;708705;;18.02.2010;JCO;X;ERG.;;;;;;;;;Miscellaneous revenu;Miscellaneous revenue - Foreign;MISCELLANEOUS REVENUE - F;;;;;;;
+PCOP;709600;;709600;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts granted on;Discounts granted on service provision;DISCOUNTS GRANTED ON SERV;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Discounts;Deductions
+PCOP;709610;;709610;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts granted on;Discounts granted on subcontracting costs (Domesti;DISCOUNTS GRANTED ON SUBC;;;;;;;
+PCOP;709620;;709620;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts granted on;Discounts granted on subcontracting services;DISCOUNTS GRANTED ON SUBC;;;;;;;
+PCOP;709630;;709630;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Discounts granted on;Discounts granted on payroll services;DISCOUNTS GRANTED ON PAYR;;;;;;;
+PCOP;713400;;713400;;18.02.2009;JCO;X;ERG.;;;;;;;;;Work in progress;Work in progress;WORK IN PROGRESS;;;;;;;
+PCOP;713990;;713990;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Project allocation;Project allocation;PROJECT ALLOCATION;;;;;;;
+PCOP;721000;;721000;;10.07.2015;PDUP;X;ERG.;;;;;;;;;PROD.IMMOBILISEE;PRODUCTION IMMOBILISEE incoporels;PRODUCTION IMMOBILISEE IN;;;;;;;
+PCOP;739000;;739000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Partial net revenue;Partial net revenue on completed operations;PARTIAL NET REVENUE ON CO;;;;;;;
+PCOP;741100;;741100;;06.11.2008;JCO;X;ERG.;;;;;;;;;Operating subsidies;Operating subsidies;OPERATING SUBSIDIES;;;;;;;
+PCOP;751100;;751100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Royalties for conces;Royalties for concessions, patents, licenses, trad;ROYALTIES FOR CONCESSIONS;;;;;;;
+PCOP;758000;;758000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Miscellaneous operat;Miscellaneous operating revenue;MISCELLANEOUS OPERATING R;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Sales;Gross Sales
+PCOP;761100;;761100;;16.06.2010;SPEU;X;ERG.;;;;;;;;;IC revenue from curr;IC revenue from current accounts;IC REVENUE FROM CURRENT A;;;;;;;
+PCOP;761200;;761200;;24.01.2011;PDUP;X;ERG.;;;;;;;;;Intercompany financi;Intercompany financial products;INTERCOMPANY FINANCIAL PR;;;;;;;
+PCOP;762100;;762100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Revenue from equity;Revenue from equity securities;REVENUE FROM EQUITY SECUR;;;;;;;
+PCOP;766000;;766000;;03.09.2009;JCO;X;ERG.;;;;;;;;;Foreign exchange gai;Foreign exchange gain;FOREIGN EXCHANGE GAIN;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Financial Revenue
+PCOP;767100;;767100;;13.01.2009;JCO;X;ERG.;;;;;;;;;Net revenue from mar;Net revenue from marketable securities (BPO);NET REVENUE FROM MARKETAB;;;;;;;
+PCOP;767200;;767200;;24.11.2008;JCO;X;ERG.;;;;;;;;;Net revenue from mar;Net revenue from marketable securities (SG);NET REVENUE FROM MARKETAB;;;;;;;
+PCOP;768000;;768000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other financial reve;Other financial revenue;OTHER FINANCIAL REVENUE;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Financial Revenue
+PCOP;771700;;771700;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Tax rebates (excludi;Tax rebates (excluding corporate tax);TAX REBATES (EXCLUDING CO;Profit & Loss;EBIT;EBITDA;Operating Margin;Net Sales;Rebates;Deductions
+PCOP;771800;;771800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Other exceptional re;Other exceptional revenue - management operations;OTHER EXCEPTIONAL REVENUE;;;;;;;
+PCOP;772000;;772000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional revenue;Exceptional revenue from previous years;EXCEPTIONAL REVENUE FROM;;;;;;;
+PCOP;775000;;775000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Revenue from asset d;Revenue from asset disposals;REVENUE FROM ASSET DISPOS;;;;;;;
+PCOP;775020;;775020;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Holding account - di;Holding account - disposal of fixed assets;HOLDING ACCOUNT - DISPOSA;;;;;;;
+PCOP;775100;;775100;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Revenue from disposa;Revenue from disposal of intangible assets;REVENUE FROM DISPOSAL OF;Profit & Loss;EBIT;EBIT;EBIT;EBIT;Below EBIT;Gain / (Loss) on Disposal of Assets
+PCOP;775200;;775200;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Revenue from disposa;Revenue from disposal of tangible assets;REVENUE FROM DISPOSAL OF;;;;;;;
+PCOP;775600;;775600;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Revenue from disposa;Revenue from disposal of financial assets;REVENUE FROM DISPOSAL OF;;;;;;;
+PCOP;775800;;775800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Revenue from disposa;Revenue from disposal of other assets;REVENUE FROM DISPOSAL OF;;;;;;;
+PCOP;778800;;778800;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Miscellaneous except;Miscellaneous exceptional revenue;MISCELLANEOUS EXCEPTIONAL;Profit & Loss;EBIT;EBITDA;EBITDA;General and Admin;Others;Other Income
+PCOP;781110;;781110;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of amortiz;Reversals of amortization of intangible assets;REVERSALS OF AMORTIZATION;;;;;;;
+PCOP;781120;;781120;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of amortiz;Reversals of amortization of tangible assets;REVERSALS OF AMORTIZATION;;;;;;;
+PCOP;781500;;781500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for operating risks and ch;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;781610;;781610;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for impairment of intangib;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;781620;;781620;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for impairment of tangible;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;781740;;781740;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for impairment of receivab;REVERSALS OF PROVISIONS F;Profit & Loss;EBIT;Others;Others;Others;Others;EBIT
+PCOP;786500;;786500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for financial risks and ch;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;786620;;786620;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for impairment of financia;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;786630;;786630;;06.03.2018;JGUE;X;ERG.;;;;;;;;;REPR./PROV. DEP C/C;REPR./PROV. POUR DEPREC.DES CPTES COURAN;REPR./PROV. POUR DEPREC.D;;;;;;;
+PCOP;787250;;787250;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of regulat;Reversals of regulated provisions (exceptional dep;REVERSALS OF REGULATED PR;;;;;;;
+PCOP;787500;;787500;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for exceptional risks and;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;787600;;787600;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Reversals of provisi;Reversals of provisions for exceptional impairment;REVERSALS OF PROVISIONS F;;;;;;;
+PCOP;791000;;791000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Operating charge tra;Operating charge transfers;OPERATING CHARGE TRANSFER;;;;;;;
+PCOP;791005;;791005;;11.05.2011;PDUP;X;ERG.;;;;;;;;;Intercompany charge;Intercompany charge transfers;INTERCOMPANY CHARGE TRANS;;;;;;;
+PCOP;796000;;796000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Financial charge tra;Financial charge transfers;FINANCIAL CHARGE TRANSFER;;;;;;;
+PCOP;797000;;797000;;27.03.2007;CCOCUELLE;X;ERG.;;;;;;;;;Exceptional charge t;Exceptional charge transfers;EXCEPTIONAL CHARGE TRANSF;;;;;;;
+PCOP;800996;;800996;;27.03.2007;CCOCUELLE;X;SAKO;;;;;;;;;FI/CO reconciliation;FI/CO reconciliation;FI/CO RECONCILIATION;;;;;;;
+PCOP;800997;;800997;;27.03.2007;CCOCUELLE;X;SAKO;;;;;;;;;Inventory change (pr;Inventory change (profit centers);INVENTORY CHANGE (PROFIT;;;;;;;
+PCOP;800998;;800998;;27.03.2007;CCOCUELLE;X;SAKO;;;;;;;;;Internal transfers (;Internal transfers (profit centers);INTERNAL TRANSFERS (PROFI;;;;;;;
+PCOP;800999;;800999;;27.03.2007;CCOCUELLE;X;SAKO;;;;;;;;;Sales (profit center;Sales (profit centers);SALES (PROFIT CENTERS);;;;;;;
+PCOP;888888;X;888888;;25.08.2015;PDUP;;SAKO;;;;;;;;;Carry forward;Carry forward;CARRY FORWARD;;;;;;;
+PCOP;890000;X;890000;;27.03.2007;CCOCUELLE;;SAKO;;;;;;;;;Migration recovery;Migration recovery;MIGRATION RECOVERY;;;;;;;
+PCOP;890100;X;890100;;03.08.2007;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - fixed assets;MIGRATION RECOVERY - FIXE;;;;;;;
+PCOP;890200;X;890200;;21.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - customers;MIGRATION RECOVERY - CUST;;;;;;;
+PCOP;890300;X;890300;;21.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - suppliers;MIGRATION RECOVERY - SUPP;;;;;;;
+PCOP;890400;X;890400;;30.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - capital and reserves;MIGRATION RECOVERY - CAPI;;;;;;;
+PCOP;890500;X;890500;;30.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - payroll/social organizations;MIGRATION RECOVERY - PAYR;;;;;;;
+PCOP;890600;X;890600;;30.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - VAT;MIGRATION RECOVERY - VAT;;;;;;;
+PCOP;890700;X;890700;;30.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - cash/banks/values;MIGRATION RECOVERY - CASH;;;;;;;
+PCOP;890800;X;890800;;30.01.2008;IGE;;SAKO;;;;;;;;;Migration recovery -;Migration recovery - others;MIGRATION RECOVERY - OTHE;;;;;;;
+PCOP;900600;X;900600;;16.06.2022;JGUE;;SAKO;;;;;;;;;Internal sales RRICB;Internal sales RRICB;INTERNAL SALES RRICB;;;;;;;
+PCOP;900700;X;900700;;16.06.2022;JGUE;;SAKO;;;;;;;;;Internal sales RRICB;Internal sales RRICB;INTERNAL SALES RRICB;;;;;;;
+PCOP;900900;;900900;;15.12.2023;JGUE;X;SAKO;;;;;;;;;INT SALES RRICB;INT SALES RRICB;INT SALES RRICB;;;;;;;
+PCOP;977777;;977777;;16.06.2022;JGUE;X;SAKO;;;;;;;;;Intercompany margin;Intercompany margin;INTERCOMPANY MARGIN;;;;;;;
+;622615;;622615;;;;;;;;;;;;;;Prof. fees CDAE;Prof. fees CDAE;Prof. fees CDAE;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+;645010;;645010;;;;;;;;;;;;;;Social payroll charges;Social payroll charges;Social payroll charges;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+;645040;;645040;;;;;;;;;;;;;;Charge CSST Canada;Charge CSST Canada;Charge CSST Canada;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+;645050;;645050;;;;;;;;;;;;;;Caisse RRQ Canada;Caisse RRQ Canada;Caisse RRQ Canada;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+;645060;;645060;;;;;;;;;;;;;;Charge A-E Canada;Charge A-E Canada;Charge A-E Canada;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+;645080;;645080;;;;;;;;;;;;;;Charge REER ER;Charge REER ER;Charge REER ER;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
+;645210;;645210;;;;;;;;;;;;;;ON/Employers' health;ON/Employers' health;ON/Employers' health;Profit & Loss;EBIT;EBITDA;Operating Margin;Operating Expenses;Direct Cost;Salaries, Benefits & Wages
