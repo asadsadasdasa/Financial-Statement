@@ -10,11 +10,25 @@ import re
 from utils import meses_fiscais
 
 def find_file(keyword, excludes=None, max_up=3):
-    """Procura um arquivo CSV contendo `keyword` no nome.
-    Busca na pasta atual e em até `max_up` diretórios-pai; se não encontrar, faz um walk a partir do cwd.
-    Retorna o caminho absoluto do primeiro arquivo encontrado ou None.
+    """Locate a CSV whose filename contains `keyword`.
+
+    - Searches the current working directory and up to `max_up` parent
+      directories.
+    - Falls back to a recursive os.walk from the current directory.
+    - **Automatically ignores** filenames that are TEMPLATES (e.g. ending with 
+      '_template.csv' or '_template_*.csv') to avoid picking up template files  
+      when looking for raw data. Additional exclusions may be passed via the 
+      ``excludes`` argument, which is a list of substrings to skip.
+    - Returns the absolute path of the first matching file, or ``None`` if
+      nothing is found.
     """
-    if excludes is None: excludes = []
+    # Only exclude templates, not files due to common words like 'model' or 'flat'
+    default_excludes = ['_template', 'template_'] if excludes is None else []
+    if excludes is None:
+        excludes = default_excludes
+    else:
+        excludes = default_excludes + excludes
+    
     cwd = os.getcwd()
     # construir lista de diretórios para procurar: cwd, parent, parent2, ...
     search_paths = [cwd]
@@ -183,6 +197,108 @@ def apply_fiscal_calendar(df, date_col='Posting Date'):
         df['Fiscal Period'] = df['Posting Date'].dt.month.map(meses_fiscais)
     return df
 
+def classify_pl_line(pl_lvl_5, account):
+    """Classify a P&L line item and determine its sign convention.
+    
+    SAP FAGLL03 exports use accounting signs:
+    - Revenues (7xx accounts, Net Sales) come in NEGATIVE: must multiply by -1
+    - Costs (6xx accounts, Operating Expenses) come in POSITIVE: keep as negative (or negate)
+    
+    Returns:
+        str: One of 'REVENUE', 'COST', or 'OTHER'
+    """
+    if pd.isna(pl_lvl_5):
+        if pd.isna(account):
+            return 'OTHER'
+        acc_str = str(account).strip()
+        if acc_str.startswith('7'):
+            return 'REVENUE'
+        elif acc_str.startswith('6'):
+            return 'COST'
+        return 'OTHER'
+    
+    pl_str = str(pl_lvl_5).upper().strip()
+    if 'NET SALES' in pl_str or 'REVENUE' in pl_str:
+        return 'REVENUE'
+    elif 'COST' in pl_str or 'EXPENSE' in pl_str or 'OPERATING' in pl_str or 'DEPRECIATION' in pl_str or 'AMORT' in pl_str:
+        return 'COST'
+    else:
+        # fallback: check account prefix
+        if not pd.isna(account):
+            acc_str = str(account).strip()
+            if acc_str.startswith('7'):
+                return 'REVENUE'
+            elif acc_str.startswith('6'):
+                return 'COST'
+    return 'OTHER'
+
+def normalize_sap_signs(df, amount_col='Amount in local currency', pl_col='P&L LVL 5', account_col='Account'):
+    """Normalize SAP accounting signs to FP&A conventions.
+    
+    - Revenues must be POSITIVE (multiply by -1 if SAP exported them as negative)
+    - Costs must be NEGATIVE (so Gross Margin = Revenue + Costs works mathematically)
+    - Creates 'Amount Normalized' columns with corrected signs
+    - For dual-currency data (Actuals), normalizes both Montante em moeda interna AND Montante em MI2
+    
+    Args:
+        df: DataFrame with SAP data
+        amount_col: Column name containing amounts (default: 'Amount in local currency')
+        pl_col: Column name for P&L classification (default: 'P&L LVL 5')
+        account_col: Column name for account numbers (default: 'Account')
+    
+    Returns:
+        DataFrame with 'Amount Normalized' column(s)
+        For dual-currency Actuals, creates both normalized amount columns
+    """
+    if df.empty:
+        return df
+    
+    df = df.copy()
+    
+    def normalize_row(val, pl_type):
+        """Apply sign normalization based on P&L line type"""
+        if pd.isna(val) or val == 0:
+            return 0.0
+        
+        val = float(val)
+        
+        # SAP convention: revenues are negative, costs are positive
+        # FP&A convention: revenues are positive, costs are negative
+        if pl_type == 'REVENUE':
+            return abs(val)  # Make positive
+        elif pl_type == 'COST':
+            return -abs(val)  # Make negative
+        else:
+            return val  # Leave as-is
+    
+    # Classify each row once
+    if pl_col in df.columns and account_col in df.columns:
+        df['_pl_type'] = df.apply(
+            lambda row: classify_pl_line(row.get(pl_col), row.get(account_col)),
+            axis=1
+        )
+    else:
+        df['_pl_type'] = 'OTHER'
+    
+    # Normalize the primary amount column
+    if amount_col in df.columns:
+        df['Amount Normalized'] = df.apply(
+            lambda row: normalize_row(row[amount_col], row['_pl_type']),
+            axis=1
+        )
+    
+    # Also normalize Montante em MI2 if present (dual-currency Actuals)
+    if 'Montante em MI2' in df.columns and amount_col != 'Montante em MI2':
+        df['Montante em MI2 Normalized'] = df.apply(
+            lambda row: normalize_row(row['Montante em MI2'], row['_pl_type']),
+            axis=1
+        )
+    
+    # Clean up temporary column
+    df = df.drop(columns=['_pl_type'], errors='ignore')
+    
+    return df
+
 @st.cache_data
 def load_master_data():
     df_fagl, df_fc, df_cap, df_bud, df_curr = pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame(), pd.DataFrame()
@@ -218,18 +334,20 @@ def load_master_data():
                 (r'dt\.?l', 'Posting Date'),
                 (r'dt\.?lcto', 'Posting Date'),
                 (r'post.*date|posting', 'Posting Date'),
-                (r'montante', 'Amount in local currency'),
-                (r'mont\.?em', 'Amount in local currency'),
-                (r'mont\.em', 'Amount in local currency'),
-                (r'mont\.em mi', 'Amount in local currency'),
-                (r'mont\.em mi2', 'Amount in local currency'),
-                (r'mont\.em mi', 'Amount in local currency'),
-                (r'mont.*mi', 'Amount in local currency'),
+                # Skip auto-mapping of 'montante' - let the explicit rename_map handle dual-currency distinction
+                # (r'montante', 'Amount in local currency'),
+                # (r'mont\.?em', 'Amount in local currency'),
+                # (r'mont\.em', 'Amount in local currency'),
+                # (r'mont\.em mi', 'Amount in local currency'),
+                # (r'mont\.em mi2', 'Amount in local currency'),
+                # (r'mont.*mi', 'Amount in local currency'),
                 (r'conta', 'Account'),
                 (r'gl acct|gl acct|g/l acct', 'Account'),
                 (r'empr|empresa|company code', 'Company Code'),
                 (r'cen.*lucro|cen.lucro|cen lucro|profit center|centro cst', 'Profit Center'),
-                (r'moed', 'Local Currency'),
+                # Skip 'moed' pattern - let explicit rename_map handle Moeda interna / Moeda interna 2
+                # to avoid matching 'moeda' inside 'montante em moeda interna'
+                # (r'moed', 'Local Currency'),
                 (r'elemento pep|wbs', 'WBS element')
             ]
 
@@ -259,10 +377,13 @@ def load_master_data():
                 if ('cen' in n and ('lucro' in n or 'cst' in n)) or 'profit center' in n or 'centro cst' in n:
                     rename_guess[orig] = 'Profit Center'
                     continue
-                if 'mont' in n and ('mi' in n or 'amount' in n or 'montante' in n):
-                    rename_guess[orig] = 'Amount in local currency'
-                    continue
-                if 'moed' in n or 'currency' in n:
+                # Skip auto-renaming for 'mont' columns - let the explicit rename_map handle it
+                # to preserve dual-currency distinction (Montante em moeda interna vs Montante em MI2)
+                # if 'mont' in n and ('mi' in n or 'amount' in n or 'montante' in n):
+                #     rename_guess[orig] = 'Amount in local currency'
+                #     continue
+                # Match 'moed' / 'currency' BUT NOT inside 'montante em moeda interna'
+                if ('moed' in n or 'currency' in n) and 'montante' not in n:
                     rename_guess[orig] = 'Local Currency'
                     continue
                 if 'elemento' in n or 'wbs' in n:
@@ -290,6 +411,9 @@ def load_master_data():
                 pass
             
             # Padronização de Colunas Universal (mapear variações portuguesas atuais)
+            # IMPORTANT: Keep dual-currency amounts distinct!
+            # - Montante em moeda interna: Amount in local currency (CAD/USD/etc per Moeda interna)
+            # - Montante em MI2: Amount in EUR (always EUR per Moeda interna 2)
             rename_map = {
                 'Dt.lçto.': 'Posting Date',
                 'Data de lançamento': 'Posting Date',
@@ -302,9 +426,10 @@ def load_master_data():
                 'Centro cst': 'Profit Center',
                 'MoedI': 'Local Currency',
                 'Moeda interna': 'Local Currency',
-                'Mont.em MI': 'Amount in local currency',
-                'Montante em MI2': 'Amount in local currency',
-                'Montante em moeda interna': 'Amount in local currency',
+                'Moeda interna 2': 'Local Currency 2',
+                'Mont.em MI': 'Montante em moeda interna',  # Keep Portuguese to preserve dual-currency logic
+                'Montante em moeda interna': 'Montante em moeda interna',  # No change
+                'Montante em MI2': 'Montante em MI2',  # No change - amount in EUR
                 'Elemento PEP': 'WBS element'
             }
             df_fagl = df_fagl.rename(columns=rename_map)
@@ -333,9 +458,9 @@ def load_master_data():
 
             # clean numeric columns after duplicates are resolved;
             # apply to every column that starts with the amount header so we
-            # don't miss renamed duplicates.
+            # don't miss renamed duplicates. Also clean Portuguese dual-currency amounts.
             for col in list(df_fagl.columns):
-                if col.startswith('Amount in local currency'):
+                if col.startswith('Amount in local currency') or col.startswith('Montante em'):
                     df_fagl[col] = df_fagl[col].apply(clean_financial_number)
             
             df_fagl = apply_fiscal_calendar(df_fagl)
@@ -377,8 +502,26 @@ def load_master_data():
                         return 'Other'
                     df_fagl['P&L LVL 5'] = df_fagl['Account'].apply(deduce_pl)
 
+            # NOW apply SAP sign normalization with P&L classification available
+            # Handles both Montante em moeda interna and Montante em MI2 columns
+            df_fagl = normalize_sap_signs(df_fagl, amount_col='Montante em moeda interna', pl_col='P&L LVL 5', account_col='Account')
+            
+            try:
+                st.info(f"After normalize_sap_signs: {df_fagl.shape}")
+                st.info(f"Normalized columns: {[c for c in df_fagl.columns if 'Normalized' in c]}")
+            except Exception:
+                pass
+
             # validar colunas importantes nos actuals
-            validate_columns(df_fagl, ['Posting Date', 'Amount in local currency', 'Account', 'Profit Center'], 'Actuals')
+            # Check for dual-currency amount columns (at least one should exist)
+            has_mi_local = 'Montante em moeda interna' in df_fagl.columns
+            has_mi2_eur = 'Montante em MI2' in df_fagl.columns
+            if not (has_mi_local or has_mi2_eur):
+                try:
+                    st.warning("Actuals data missing: 'Montante em moeda interna' and/or 'Montante em MI2' currency columns")
+                except Exception:
+                    pass
+            validate_columns(df_fagl, ['Posting Date', 'Account', 'Profit Center'], 'Actuals')
 
         except Exception as e: st.error(f"Erro ao carregar Actuals: {e}")
     else:
@@ -431,37 +574,129 @@ def load_master_data():
     return df_fagl, df_fc, df_cap, df_bud, df_curr
 
 def filter_and_convert(df, df_currency, fy_sel, mes_sel, emp_sel, pc_sel, moeda_sel, val_col='Amount in local currency', eur_base=False):
-    if df.empty or 'Fiscal Year' not in df.columns: return pd.DataFrame()
+    """Apply global filters (FY, Period, Company, Profit Center) and convert amounts to target currency.
+    
+    For Actuals (FAGLL03), intelligently selects amount column based on target currency:
+    - If moeda_sel == 'EUR': Use 'Montante em MI2' (already EUR, no conversion needed)
+    - If moeda_sel != 'EUR': Use 'Montante em moeda interna' and convert via currency mapping
+    
+    Args:
+        df: DataFrame with Fiscal Year, Fiscal Period, etc.
+        df_currency: Currency mapping table with Ano, Mes, Moeda_Origem, Moeda_Destino, Taxa_Conversao
+        fy_sel: Fiscal Year selected (e.g., 'FY25/26')
+        mes_sel: Fiscal Period selected ('All', 'YTD', or specific month '01-Apr', etc.)
+        emp_sel: Company/Entity filter
+        pc_sel: Profit Center/LOB filter
+        moeda_sel: Target currency ('EUR', 'CAD', 'USD', etc.)
+        val_col: Default amount column name (fallback for non-Actuals data)
+        eur_base: If True, base conversions from EUR; used for Capacity data
+    
+    Returns:
+        Filtered and converted DataFrame with 'Amount Final' column
+    """
+    if df.empty or 'Fiscal Year' not in df.columns:
+        return pd.DataFrame()
     
     mask = (df['Fiscal Year'] == fy_sel)
-    if mes_sel != 'All' and mes_sel != 'YTD': mask &= (df['Fiscal Period'] == mes_sel)
+    if mes_sel != 'All' and mes_sel != 'YTD':
+        mask &= (df['Fiscal Period'] == mes_sel)
     
     # Tolerância a cruzamentos incompletos
     if emp_sel != 'All':
-        if 'Company' in df.columns: mask &= (df['Company'] == emp_sel)
-        elif 'Company Code' in df.columns: mask &= (df['Company Code'] == emp_sel)
+        if 'Company' in df.columns:
+            mask &= (df['Company'] == emp_sel)
+        elif 'Company Code' in df.columns:
+            mask &= (df['Company Code'] == emp_sel)
         
     if pc_sel != 'All' and 'Profit Center' in df.columns:
-        # Só filtra o Profit Center se os dados existirem (No Actuals às vezes o PC é um código e no Forecast é o nome)
+        # Só filtra o Profit Center se os dados existirem
         mask &= (df['Profit Center'].astype(str) == str(pc_sel))
     
     df_res = df[mask].copy()
-    if df_res.empty: return df_res
+    if df_res.empty:
+        return df_res
 
     df_curr = df_currency[df_currency['Moeda_Destino'] == moeda_sel] if not df_currency.empty else pd.DataFrame()
     
-    if eur_base: 
-        if moeda_sel == 'EUR' or df_curr.empty: df_res['Amount Final'] = df_res[val_col]
+    # === SMART AMOUNT COLUMN SELECTION FOR ACTUALS ===
+    # Detect if this is Actuals data with dual-currency structure
+    has_mi2_normalized = 'Montante em MI2 Normalized' in df_res.columns
+    has_amount_normalized = 'Amount Normalized' in df_res.columns
+    
+    if has_mi2_normalized and has_amount_normalized:
+        # This is Actuals data with dual-currency support AND sign normalization
+        if moeda_sel == 'EUR':
+            # EUR requested: use Montante em MI2 Normalized (already EUR, no conversion needed)
+            df_res['Amount Final'] = df_res['Montante em MI2 Normalized'].fillna(0)
+        else:
+            # Non-EUR requested: use Amount Normalized (normalized version of Montante em moeda interna) and convert
+            if not df_curr.empty:
+                # Merge currency rates based on (Ano, Mes, Moeda_Origem where Moeda_Origem = Moeda interna)
+                df_res = pd.merge(
+                    df_res,
+                    df_curr,
+                    left_on=['Cal_Ano', 'Cal_Mes', 'Local Currency'],
+                    right_on=['Ano', 'Mes', 'Moeda_Origem'],
+                    how='left'
+                )
+                df_res['Amount Final'] = df_res['Amount Normalized'] * df_res['Taxa_Conversao'].fillna(1.0)
+            else:
+                # No currency mapping available, use amount as-is
+                df_res['Amount Final'] = df_res['Amount Normalized'].fillna(0)
+    
+    # === FALLBACK FOR ACTUALS WITHOUT DUAL-CURRENCY NORMALIZED COLUMNS ===
+    elif has_mi2_normalized or has_amount_normalized:
+        # Has some normalization but not the full dual structure
+        if 'Montante em MI2' in df_res.columns and moeda_sel == 'EUR':
+            # Use EUR amount directly
+            df_res['Amount Final'] = df_res['Montante em MI2 Normalized'].fillna(0) if has_mi2_normalized else df_res['Montante em MI2'].fillna(0)
+        elif 'Montante em moeda interna' in df_res.columns:
+            # Use local currency with conversion
+            if not df_curr.empty:
+                df_res = pd.merge(
+                    df_res,
+                    df_curr,
+                    left_on=['Cal_Ano', 'Cal_Mes', 'Local Currency'],
+                    right_on=['Ano', 'Mes', 'Moeda_Origem'],
+                    how='left'
+                )
+                df_res['Amount Final'] = df_res['Amount Normalized'].fillna(0) * df_res['Taxa_Conversao'].fillna(1.0)
+            else:
+                df_res['Amount Final'] = df_res['Amount Normalized'].fillna(0)
+    
+    # === STANDARD CONVERSION FOR FORECAST/CAPACITY ===
+    elif eur_base:
+        # Capacity and similar data: convert from EUR base
+        if moeda_sel == 'EUR' or df_curr.empty:
+            df_res['Amount Final'] = df_res.get(val_col, 0).fillna(0)
         else:
             taxa_eur = df_curr[df_curr['Moeda_Origem'] == 'EUR']
             if not taxa_eur.empty:
-                df_res = pd.merge(df_res, taxa_eur[['Ano', 'Mes', 'Taxa_Conversao']], left_on=['Cal_Ano', 'Cal_Mes'], right_on=['Ano', 'Mes'], how='left')
-                df_res['Amount Final'] = df_res[val_col] * df_res['Taxa_Conversao'].fillna(1.0)
-            else: df_res['Amount Final'] = df_res[val_col]
+                df_res = pd.merge(
+                    df_res,
+                    taxa_eur[['Ano', 'Mes', 'Taxa_Conversao']],
+                    left_on=['Cal_Ano', 'Cal_Mes'],
+                    right_on=['Ano', 'Mes'],
+                    how='left'
+                )
+                df_res['Amount Final'] = df_res.get(val_col, 0).fillna(0) * df_res['Taxa_Conversao'].fillna(1.0)
+            else:
+                df_res['Amount Final'] = df_res.get(val_col, 0).fillna(0)
+    
     else:
+        # Forecast data: convert from local currency to target
         if 'Local Currency' in df_res.columns and not df_curr.empty:
-            df_res = pd.merge(df_res, df_curr, left_on=['Cal_Ano', 'Cal_Mes', 'Local Currency'], right_on=['Ano', 'Mes', 'Moeda_Origem'], how='left')
-            df_res['Amount Final'] = df_res[val_col] * df_res['Taxa_Conversao'].fillna(1.0)
-        else: df_res['Amount Final'] = df_res.get(val_col, 0)
+            df_res = pd.merge(
+                df_res,
+                df_curr,
+                left_on=['Cal_Ano', 'Cal_Mes', 'Local Currency'],
+                right_on=['Ano', 'Mes', 'Moeda_Origem'],
+                how='left'
+            )
+            df_res['Amount Final'] = df_res.get(val_col, 0).fillna(0) * df_res['Taxa_Conversao'].fillna(1.0)
+        else:
+            df_res['Amount Final'] = df_res.get(val_col, 0).fillna(0)
+    
+    return df_res
             
     return df_res

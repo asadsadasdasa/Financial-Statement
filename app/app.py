@@ -6,6 +6,7 @@ from data_engine import load_master_data, filter_and_convert
 # Importação dos Módulos das Abas
 from tabs.tab_pl import render_pl
 from tabs.tab_capacity import render_capacity
+from tabs.tab_revenue_pipeline import render_revenue_pipeline
 from tabs.tab_simulation import render_simulation
 
 # --- CONFIGURAÇÃO ---
@@ -52,10 +53,12 @@ st.markdown("---")
 df_act_fil = filter_and_convert(df_base, df_currency, fy_sel, mes_sel, emp_sel, pc_sel, moeda_sel)
 df_fc_fil = filter_and_convert(df_forecast, df_currency, fy_sel, mes_sel, emp_sel, pc_sel, moeda_sel)
 df_cap_fil = filter_and_convert(df_capacity, df_currency, fy_sel, mes_sel, emp_sel, pc_sel, moeda_sel, val_col='Target Capacity EUR', eur_base=True)
+df_bud_fil = filter_and_convert(df_budget, df_currency, fy_sel, mes_sel, emp_sel, pc_sel, moeda_sel)
 
 # --- ABAS (CHAMANDO OS MÓDULOS) ---
-tab1, tab2, tab3 = st.tabs(["📊 P&L & Profitability", "⚖️ Capacity vs. Delivery Risk", "📤 Upload Data (Simulation)"])
+tab1, tab2, tab3, tab4 = st.tabs(["📊 P&L & Profitability", "⚖️ Capacity vs. Delivery Risk", "📤 Revenue Pipeline", "📥 Upload Data (Simulation)"])
 
-with tab1: render_pl(df_act_fil, moeda_sel)
+with tab1: render_pl(df_act_fil, df_fc_fil, df_bud_fil, moeda_sel)
 with tab2: render_capacity(df_fc_fil, df_cap_fil, df_act_fil, moeda_sel)
-with tab3: render_simulation()
+with tab3: render_revenue_pipeline(df_fc_fil, df_act_fil, moeda_sel)
+with tab4: render_simulation()
