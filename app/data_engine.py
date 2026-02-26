@@ -309,8 +309,34 @@ def load_master_data():
             }
             df_fagl = df_fagl.rename(columns=rename_map)
 
-            if 'Amount in local currency' in df_fagl.columns:
-                df_fagl['Amount in local currency'] = df_fagl['Amount in local currency'].apply(clean_financial_number)
+            # handle duplicate column names which often arise when two similar
+            # fields (eg. "Moeda interna" and "Moeda interna 2") are both
+            # mapped to the same English header.  Instead of dropping extras we
+            # rename them with a suffix so the data is preserved and the caller
+            # can decide which one to use.
+            if df_fagl.columns.duplicated().any():
+                cols = df_fagl.columns.tolist()
+                seen = {}
+                for idx, col in enumerate(cols):
+                    if col in seen:
+                        seen[col] += 1
+                        newname = f"{col}_{seen[col]}"
+                        df_fagl.columns.values[idx] = newname
+                        try:
+                            st.warning(f"Renamed duplicate column '{col}' to '{newname}'")
+                        except Exception:
+                            pass
+                    else:
+                        seen[col] = 0
+                # rebuild cols list after renaming
+                df_fagl.columns = df_fagl.columns  # trigger update
+
+            # clean numeric columns after duplicates are resolved;
+            # apply to every column that starts with the amount header so we
+            # don't miss renamed duplicates.
+            for col in list(df_fagl.columns):
+                if col.startswith('Amount in local currency'):
+                    df_fagl[col] = df_fagl[col].apply(clean_financial_number)
             
             df_fagl = apply_fiscal_calendar(df_fagl)
 
@@ -327,7 +353,22 @@ def load_master_data():
                     df_fagl = pd.merge(df_fagl, df_coa, on='Account', how='left')
                 
             # SAFETY NET CFO: Se a conta não for mapeada, ele deduz pela classe
-            if 'P&L LVL 5' not in df_fagl.columns or df_fagl['P&L LVL 5'].isna().all():
+            # note: df_fagl['P&L LVL 5'] can return a DataFrame if there are duplicate
+            # column names; .isna().all() on a DataFrame returns a Series, and using
+            # that in an `if` expression causes the ambiguous truth-value error that
+            # was bubbling up as "Erro ao carregar Actuals".  Make sure we reduce to a
+            # single bool and log duplicates for debugging.
+            if 'P&L LVL 5' not in df_fagl.columns or (
+                    isinstance(df_fagl['P&L LVL 5'], pd.DataFrame)
+                    and df_fagl['P&L LVL 5'].isna().all().all()
+                ) or (
+                    not isinstance(df_fagl['P&L LVL 5'], pd.DataFrame)
+                    and df_fagl['P&L LVL 5'].isna().all()
+                ):
+                # if there are duplicate columns, collapse them before deducing
+                if isinstance(df_fagl['P&L LVL 5'], pd.DataFrame):
+                    st.warning("Duplicate 'P&L LVL 5' columns detected; collapsing to first")
+                    df_fagl['P&L LVL 5'] = df_fagl['P&L LVL 5'].iloc[:, 0]
                 if 'Account' in df_fagl.columns:
                     def deduce_pl(acc):
                         val = str(acc)
